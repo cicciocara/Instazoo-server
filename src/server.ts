@@ -19,6 +19,7 @@ import session from "express-session";
 import { validateToken } from "./lib/middleware/validationToken";
 import bcrypt from "bcrypt";
 import data from "./assets/default-data/animals.json";
+import path from "path";
 
 const generateAccessToken = (id: Number) => {
   return jwt.sign({ id }, config.TOKEN_SECRET);
@@ -51,14 +52,8 @@ app.get("/animals", async (req, res) => {
     const animalsArr = await prisma.animals.findMany({
       include: { Habitats: { select: { name: true } } },
     });
-    const randomAnimals = [];
 
-    for (let i = 1; (i = 10); i++) {
-      const animal = animalsArr[Math.floor(Math.random() * animalsArr.length)];
-      randomAnimals.push(animal);
-    }
-
-    res.status(200).json(randomAnimals);
+    res.status(200).json(animalsArr);
   } catch (error) {
     res.status(401).send(error);
   }
@@ -212,7 +207,6 @@ app.delete(
 
 app.post("/signup", validate({ body: usersSchema }), async (req, res) => {
   const newUserValidate: UsersData = req.body;
-  console.log(req.body);
   try {
     const users = await prisma.users.findMany();
     const {
@@ -251,7 +245,7 @@ app.post("/signup", validate({ body: usersSchema }), async (req, res) => {
     } else {
       await prisma.users.create({ data: newUser });
 
-      res.status(200).send("User added correctly");
+      res.status(200).json({ message: "User added correctly", status: "ok" });
     }
   } catch (err: any) {
     console.log(err.message);
@@ -280,5 +274,6 @@ app.post("/login", async (req, res, next) => {
 //   res.status(201).json({ message: "Added successfully" });
 // });
 
+app.use(express.static("src/assets/img"));
 app.use(validationErrorMiddleware);
 app.listen(port);
