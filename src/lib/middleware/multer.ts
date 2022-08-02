@@ -1,10 +1,14 @@
-import multer from "multer";
-import mime from "mime";
+import multer from 'multer';
+import mime from 'mime';
 
 const storage = multer.diskStorage({
-  destination: "../assets/img",
+  destination: 'src/assets/img',
   filename: (req, file, cb) => {
-    cb(null, `Cazzo.${mime.getExtension(file.mimetype)}`);
+    console.log(file);
+    cb(
+      null,
+      `${file.originalname.split('.')[0]}.${mime.getExtension(file.mimetype)}`
+    );
   },
 });
 
@@ -12,10 +16,10 @@ export const photoUploaderMiddleware = () => {
   return multer({
     storage: storage,
     fileFilter: (req, file, cb) => {
-      if (file.mimetype == "image/png" || file.mimetype == "image/jpeg") {
+      if (file.mimetype == 'image/png' || file.mimetype == 'image/jpeg') {
         cb(null, true);
       } else {
-        cb(new Error("Image must be png or jpeg"));
+        cb(new Error('Image must be png or jpeg'));
       }
     },
   });
