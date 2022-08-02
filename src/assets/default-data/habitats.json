@@ -1,0 +1,371 @@
+[
+    {
+        "name": "Arctic tundra"
+    },
+    {
+        "name": "Arid rocky areas and bushland"
+    },
+    {
+        "name": "Coastal cliffs and forests near rivers and lakes"
+    },
+    {
+        "name": "Coastal rocky cliffs"
+    },
+    {
+        "name": "Coastal waters and wetlands"
+    },
+    {
+        "name": "Coastal wetlands"
+    },
+    {
+        "name": "Costal shores, forest, and mountain regions near lakes and rivers"
+    },
+    {
+        "name": "Costal wetlands"
+    },
+    {
+        "name": "Creeks and rivers"
+    },
+    {
+        "name": "Dense rainforest, mangrove swamps, and plantations"
+    },
+    {
+        "name": "Dense tropical forest"
+    },
+    {
+        "name": "Desert"
+    },
+    {
+        "name": "Desert, grassland, scrubland, and forest"
+    },
+    {
+        "name": "Desert, mountains, grasslands and coasts"
+    },
+    {
+        "name": "Desert, savannah, and scrubland"
+    },
+    {
+        "name": "Desert, savannah, tropical rainforest, forest, scrubland, and mountain areas"
+    },
+    {
+        "name": "Domestic habitat"
+    },
+    {
+        "name": "Dry and tropical areas, acacia trees, woodlands and savannas "
+    },
+    {
+        "name": "Dry forest"
+    },
+    {
+        "name": "Dry grasslands"
+    },
+    {
+        "name": "Dry regions, rocky hillsides and desert"
+    },
+    {
+        "name": "Dry, rocky areas and woodland"
+    },
+    {
+        "name": "Dry woodlands"
+    },
+    {
+        "name": "Flooded woodlands, lakes, ponds, rivers, and bays"
+    },
+    {
+        "name": "Forest"
+    },
+    {
+        "name": "Forest and grassland"
+    },
+    {
+        "name": "Forest and mountains"
+    },
+    {
+        "name": "Forest and savanna"
+    },
+    {
+        "name": "Forest and savannah"
+    },
+    {
+        "name": "Forest and swamp"
+    },
+    {
+        "name": "Forest, desert and rocky areas"
+    },
+    {
+        "name": "Forest edges, woodlands, agricultural areas and towns"
+    },
+    {
+        "name": "Forest, grassland and desert"
+    },
+    {
+        "name": "Forest, grassland and scrubland"
+    },
+    {
+        "name": "Forest, grassland, and wetland"
+    },
+    {
+        "name": "Forest, savanna, and shrubland habitats"
+    },
+    {
+        "name": "Forests near ponds and streams"
+    },
+    {
+        "name": "Fresh water lakes and rivers"
+    },
+    {
+        "name": "Freshwater lakes and welands"
+    },
+    {
+        "name": "Freshwater marshes, rivers, floodplains and lake shores"
+    },
+    {
+        "name": "Freshwater ponds and streams"
+    },
+    {
+        "name": "Freshwater rivers, lakes, ponds and marshes"
+    },
+    {
+        "name": "Freshwater rivers, streams, lakes, ponds, marshes, swamps, and coastal waters"
+    },
+    {
+        "name": "Freshwater wetlands and grasslands"
+    },
+    {
+        "name": "Grassland and scrubland"
+    },
+    {
+        "name": "Grassland, desert, marsh, and agricultural fields"
+    },
+    {
+        "name": "Grassland, forest, and desert"
+    },
+    {
+        "name": "Grassland, lakes and rivers"
+    },
+    {
+        "name": "Grasslands"
+    },
+    {
+        "name": "Grasslands and rainforest"
+    },
+    {
+        "name": "Grassland, shrubland and woodland"
+    },
+    {
+        "name": "High plateau"
+    },
+    {
+        "name": "Hot springs, rivers, streams, lakes, swamps,"
+    },
+    {
+        "name": "Lakes"
+    },
+    {
+        "name": "Lowland and montane forest"
+    },
+    {
+        "name": "Marine waters near rocky seacoasts"
+    },
+    {
+        "name": "Moist woodland"
+    },
+    {
+        "name": "Mountain and forest"
+    },
+    {
+        "name": "Mountain forest"
+    },
+    {
+        "name": "Mountain forests, grasslands, and scrub dessert"
+    },
+    {
+        "name": "Mountain regions, including grassland, scrubland, and open woodland"
+    },
+    {
+        "name": "Mountain regions, including grassland, woodland, and semi-desert"
+    },
+    {
+        "name": "Ocean and coastal shores"
+    },
+    {
+        "name": "Ocean and islands"
+    },
+    {
+        "name": "Ocean and rocky coastal cliffs"
+    },
+    {
+        "name": "Ocean and rocky coasts"
+    },
+    {
+        "name": "Ocean cliffs"
+    },
+    {
+        "name": "Ocean, rocky cliffs, grassland and coastal shores"
+    },
+    {
+        "name": "Ocean shoreline"
+    },
+    {
+        "name": "Ponds, stream pools and lakes"
+    },
+    {
+        "name": "Rainforest"
+    },
+    {
+        "name": "Rainforest, forest and savanna woodland"
+    },
+    {
+        "name": "Rainforest, scrub, and desert"
+    },
+    {
+        "name": "Rainforests, dry forests, mangroves, and shrubland"
+    },
+    {
+        "name": "Rivers and streams"
+    },
+    {
+        "name": "Rivers, lakes and other bodies of fresh and brackish water"
+    },
+    {
+        "name": "Rivers, lakes, reserviors and estuaries"
+    },
+    {
+        "name": "Rivers, streams, marshes, and other bodies of water"
+    },
+    {
+        "name": "Rocky areas, woodland, and grassland"
+    },
+    {
+        "name": "Rocky desert and thorn forest"
+    },
+    {
+        "name": "Rocky hillsides, fields, woodlands and swamp"
+    },
+    {
+        "name": "Rocky Outcrops"
+    },
+    {
+        "name": "Sandy soils of pine woodlands and scrubland"
+    },
+    {
+        "name": "Savanna"
+    },
+    {
+        "name": "Savanna and woodland"
+    },
+    {
+        "name": "Savannah"
+    },
+    {
+        "name": "Savannah and dry forest"
+    },
+    {
+        "name": "Savannah and open woodland"
+    },
+    {
+        "name": "Savannah and woodland"
+    },
+    {
+        "name": "Savannah, scrubland and forest"
+    },
+    {
+        "name": "Savannah, semi-desert and desert"
+    },
+    {
+        "name": "Savannah, shrubland and desert"
+    },
+    {
+        "name": "Savannah, woodland and desert"
+    },
+    {
+        "name": "Savannah, woodland, and desert"
+    },
+    {
+        "name": "Savannah, woodland and semi-desert"
+    },
+    {
+        "name": "Savanna, scrub, dry forest and tropical rainforest"
+    },
+    {
+        "name": "Scrubland"
+    },
+    {
+        "name": "Semi-desert, bush, savanna and woodland"
+    },
+    {
+        "name": "Shallow pools and streams"
+    },
+    {
+        "name": "Shrubland, woodland and savannah"
+    },
+    {
+        "name": "Swamps, ponds and other still waters"
+    },
+    {
+        "name": "Tropical and subtropical forest"
+    },
+    {
+        "name": "Tropical forest"
+    },
+    {
+        "name": "Tropical forest and swamp"
+    },
+    {
+        "name": "Tropical forest and wetland"
+    },
+    {
+        "name": "Tropical rainforest "
+    },
+    {
+        "name": "Tropical rainforest"
+    },
+    {
+        "name": "Varied habitats from rocky hillsides to farmlands"
+    },
+    {
+        "name": "Wetlands"
+    },
+    {
+        "name": "Wetlands and forest"
+    },
+    {
+        "name": "Wetlands and grasslands"
+    },
+    {
+        "name": "Wetland, woodland, and savannah"
+    },
+    {
+        "name": "Woodland"
+    },
+    {
+        "name": "Woodland and savanna"
+    },
+    {
+        "name": "Woodland and scrubland"
+    },
+    {
+        "name": "Woodland, field, wetland, and scrubland"
+    },
+    {
+        "name": "Woodlands"
+    },
+    {
+        "name": "Woodlands and rocky hillsides"
+    },
+    {
+        "name": "Woodlands and urban areas"
+    },
+    {
+        "name": "Woodland savannah"
+    },
+    {
+        "name": "Woodland, savanna, scrubland, swamps, lakes, and rivers"
+    },
+    {
+        "name": "Woodland, scrubland, and grassland"
+    },
+    {
+        "name": "Woods, fields, and swamps"
+    }
+]

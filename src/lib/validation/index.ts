@@ -28,3 +28,4 @@ export const validationErrorMiddleware: ErrorRequestHandler = (
 };
 
 export * from "./animals";
+export * from "./users";

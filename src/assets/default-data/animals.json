@@ -1,0 +1,1775 @@
+[
+    {
+        "name": "Aardvark",
+        "latin_name": "Orycteropus afer",
+        "animal_type": "Mammal",
+        "habitat_id": 220,
+        "diet": "Ants and termites",
+        "geo_range": "Central and Southern Africa",
+        "image_link": "SanWild17.jpg"
+    },
+    {
+        "name": "Aardwolf",
+        "latin_name": "Proteles cristatus",
+        "animal_type": "Mammal",
+        "habitat_id": 184,
+        "diet": "Termites",
+        "geo_range": "Africa",
+        "image_link": "Proteles_cristatus1.jpg"
+    },
+    {
+        "name": "African Lion",
+        "latin_name": "Panthera leo",
+        "animal_type": "Mammal",
+        "habitat_id": 192,
+        "diet": "Hoofed mammals, hares, small birds and reptiles",
+        "geo_range": "Africa",
+        "image_link": "Lion_waiting_in_Namibia.jpg"
+    },
+    {
+        "name": "African Painted Dog",
+        "latin_name": "Lycaon pictus",
+        "animal_type": "Mammal",
+        "habitat_id": 193,
+        "diet": "Primarily antelope; some warthogs, hares and small animals",
+        "geo_range": "Central and Southern Africa",
+        "image_link": "African_wild_dog_%28Lycaon_pictus_pictus%29.jpg"
+    },
+    {
+        "name": "African Penguin",
+        "latin_name": "Spheniscus demersus",
+        "animal_type": "Bird",
+        "habitat_id": 167,
+        "diet": "Fish and squid",
+        "geo_range": "South Africa",
+        "image_link": "African_penguin_side_profile.jpg"
+    },
+    {
+        "name": "African Pygmy Falcon",
+        "latin_name": "Polihierax semitorquatus",
+        "animal_type": "Bird",
+        "habitat_id": 184,
+        "diet": "Insects, lizards, birds and rodents",
+        "geo_range": "Eastern and Southern Africa",
+        "image_link": "African_Pygmy_Falcon_Female.jpg"
+    },
+    {
+        "name": "Alligator Gar",
+        "latin_name": "Lepisosteus spatula",
+        "animal_type": "Fish",
+        "habitat_id": 174,
+        "diet": "Fish and other small animals",
+        "geo_range": "North America",
+        "image_link": "Alligator_Gar_10.JPG"
+    },
+    {
+        "name": "Alligator Snapping Turtle",
+        "latin_name": "Macroclemys temmnicki",
+        "animal_type": "Reptile",
+        "habitat_id": 136,
+        "diet": "Fish",
+        "geo_range": "Freshwaters of the Southeastern United States",
+        "image_link": "Alligator_snapping_turtle.jpg"
+    },
+    {
+        "name": "Alpaca",
+        "latin_name": "Vicugna pacos",
+        "animal_type": "Mammal",
+        "habitat_id": 147,
+        "diet": "Grass",
+        "geo_range": "South America",
+        "image_link": "Alpaca_%2831562329701%29.jpg"
+    },
+    {
+        "name": "Amazon Milk Frog",
+        "latin_name": "Trachycephalus resinifictrix",
+        "animal_type": "Amphibian",
+        "habitat_id": 205,
+        "diet": "Insects, spiders, and other small animals",
+        "geo_range": "Northern South America",
+        "image_link": "Amazon_Milk_Frog_%28Trachycephalus_resinifictrix%29%2C_CMN.jpg"
+    },
+    {
+        "name": "American Alligator",
+        "latin_name": "Alligator mississippiensis",
+        "animal_type": "Reptile",
+        "habitat_id": 136,
+        "diet": "Fish, turtles, snakes, frogs, small mammals, birds, and other alligators",
+        "geo_range": "Southeastern United States",
+        "image_link": "American_Alligator.jpg"
+    },
+    {
+        "name": "American Crocodile",
+        "latin_name": "Crocodylus acutus",
+        "animal_type": "Reptile",
+        "habitat_id": 103,
+        "diet": "Fish, turtles, crabs, birds, and other aquatic animals",
+        "geo_range": "Southern Florida, Central America, and northern South America",
+        "image_link": "Crocodylus_acutus_mexico_02-edit1.jpg"
+    },
+    {
+        "name": "Andean Bear",
+        "latin_name": "Tremarctos ornatus",
+        "animal_type": "Mammal",
+        "habitat_id": 158,
+        "diet": "Primarily fruits, bromeliads, bamboo, cactus and other plants, some small animals",
+        "geo_range": "Northwestern South America",
+        "image_link": "Tremarctos_ornatus_25.jpg"
+    },
+    {
+        "name": "Andean Condor",
+        "latin_name": "Vultur gryphus",
+        "animal_type": "Bird",
+        "habitat_id": 112,
+        "diet": "Carrion",
+        "geo_range": "Western South America",
+        "image_link": "Vultur_gryphus_-Dou%C3%A9-la-Fontaine_Zoo%2C_France-8a.jpg"
+    },
+    {
+        "name": "Angolan Colobus Monkey",
+        "latin_name": "Colobus angolensis",
+        "animal_type": "Mammal",
+        "habitat_id": 127,
+        "diet": "Leaves, fruit, and seeds",
+        "geo_range": "Tanzania",
+        "image_link": "Colobus_angolensis.jpg"
+    },
+    {
+        "name": "Angolan Python",
+        "latin_name": "Python anchietae",
+        "animal_type": "Reptile",
+        "habitat_id": 100,
+        "diet": "Rodents and birds",
+        "geo_range": "Southern Africa",
+        "image_link": "Angolan_Dwarf_Python_%28Python_anchietae%29.jpg"
+    },
+    {
+        "name": "Arctic Fox",
+        "latin_name": "Vulpes lagopus",
+        "animal_type": "Mammal",
+        "habitat_id": 99,
+        "diet": "Rodents, birds, fish, eggs, berries, and carrion",
+        "geo_range": "Arctic regions of North America, Europe, and Asia",
+        "image_link": "Iceland-1979445_%28cropped_3%29.jpg"
+    },
+    {
+        "name": "Aruba Island Rattlesnake",
+        "latin_name": "Crotalus unicolor",
+        "animal_type": "Reptile",
+        "habitat_id": 119,
+        "diet": "Small mammals, birds and lizards",
+        "geo_range": "Aruba Island",
+        "image_link": "Aruba_Island_Rattle_Snake.jpg"
+    },
+    {
+        "name": "Asian Elephant",
+        "latin_name": "Elephas maximus",
+        "animal_type": "Mammal",
+        "habitat_id": 123,
+        "diet": "Grasses, leaves, barks, and fruits",
+        "geo_range": "Southern and Southeast Asia",
+        "image_link": "Elephas_maximus_%28Bandipur%29.jpg"
+    },
+    {
+        "name": "Atlantic Puffin",
+        "latin_name": "Fratercula",
+        "animal_type": "Bird",
+        "habitat_id": 165,
+        "diet": "Fish, mollusks and crustaceans",
+        "geo_range": "North Atlantic Ocean",
+        "image_link": "Puffin_%28Fratercula_arctica%29.jpg"
+    },
+    {
+        "name": "Aye-aye",
+        "latin_name": "Daubentonia madagascariensis",
+        "animal_type": "Mammal",
+        "habitat_id": 128,
+        "diet": "Insect larva, nuts, and fruits",
+        "geo_range": "Madagascar",
+        "image_link": "Wild_aye_aye.jpg"
+    },
+    {
+        "name": "Azureus Cichlid",
+        "latin_name": "Copadichromis azureus",
+        "animal_type": "Fish",
+        "habitat_id": 152,
+        "diet": "Plankton",
+        "geo_range": "Africa",
+        "image_link": "Copadichromis_azureus.jpg"
+    },
+    {
+        "name": "Bald Eagle",
+        "latin_name": "Haliaeetus leucocephalus",
+        "animal_type": "Bird",
+        "habitat_id": 105,
+        "diet": "Fish, small mammals, birds, reptiles, and carrion",
+        "geo_range": "North America",
+        "image_link": "About_to_Launch_%2826075320352%29.jpg"
+    },
+    {
+        "name": "Bali Myna",
+        "latin_name": "Leucopsar rothschildi",
+        "animal_type": "Bird",
+        "habitat_id": 158,
+        "diet": "Fruit, seeds, and invertebrates",
+        "geo_range": "Bali, Indonesia",
+        "image_link": "Bali_Mynah.jpg"
+    },
+    {
+        "name": "Barn Owl",
+        "latin_name": "Tyto alba",
+        "animal_type": "Bird",
+        "habitat_id": 144,
+        "diet": "Small mammals such as mice, voles, and shrews",
+        "geo_range": "Worldwide",
+        "image_link": "Tyto_alba_-British_Wildlife_Centre%2C_Surrey%2C_England-8a_%281%29.jpg"
+    },
+    {
+        "name": "Barred Owl",
+        "latin_name": "Strix varia",
+        "animal_type": "Bird",
+        "habitat_id": 123,
+        "diet": "Small mammals",
+        "geo_range": "North America",
+        "image_link": "Strix-varia-005.jpg"
+    },
+    {
+        "name": "Bat-eared Fox",
+        "latin_name": "Otocyon megalotis",
+        "animal_type": "Mammal",
+        "habitat_id": 184,
+        "diet": "Primarily termites, beetles, and other insects",
+        "geo_range": "Eastern and Southern Africa",
+        "image_link": "Otocyon_megalotis_-_Etosha_2014.jpg"
+    },
+    {
+        "name": "Bearcat",
+        "latin_name": "Arctitis binturong",
+        "animal_type": "Mammal",
+        "habitat_id": 200,
+        "diet": "Fruits, leaves, and small animals",
+        "geo_range": "South and Southeast Asia",
+        "image_link": "Binturong_in_Overloon.jpg"
+    },
+    {
+        "name": "Bearded Dragon",
+        "latin_name": "Pogona vitteceps",
+        "animal_type": "Reptile",
+        "habitat_id": 120,
+        "diet": "Insects and leaves",
+        "geo_range": "Central and Southern Australia",
+        "image_link": "Pogona_vitticeps02.JPG"
+    },
+    {
+        "name": "Bennett's Wallaby",
+        "latin_name": "Macropus rufogriseus",
+        "animal_type": "Marsupial",
+        "habitat_id": 123,
+        "diet": "Grass and herbs",
+        "geo_range": "Southeastern Australia, including Tasmania",
+        "image_link": "Macropus_rufogriseus_rufogriseus_Bruny.jpg"
+    },
+    {
+        "name": "Black Howler Monkey",
+        "latin_name": "Alouatta caraya",
+        "animal_type": "Mammal",
+        "habitat_id": 201,
+        "diet": "Leaves, flowers and fruit",
+        "geo_range": "South America",
+        "image_link": "Black_Howler_Monkey_Portrait_1.jpg"
+    },
+    {
+        "name": "Black Rat Snake",
+        "latin_name": "Pantherophis alleghaniensis",
+        "animal_type": "Reptile",
+        "habitat_id": 206,
+        "diet": "Rodents",
+        "geo_range": "Eastern United States",
+        "image_link": "Eastern_Ratsnake_%28Pantherophis_alleghaniensis%29%2C_residential%2C_Montgomery_County_Maryland.jpg"
+    },
+    {
+        "name": "Black Rhinoceros",
+        "latin_name": "Diceros bicornis",
+        "animal_type": "Mammal",
+        "habitat_id": 213,
+        "diet": "Woody plants, herbs, and fruits",
+        "geo_range": "Central and Southern Africa",
+        "image_link": "2012_Black_Rhinoceros_Gemsbokvlakte.jpg"
+    },
+    {
+        "name": "Black-and-White Colobus Monkey",
+        "latin_name": "Colobus guereza",
+        "animal_type": "Mammal",
+        "habitat_id": 123,
+        "diet": "Primarily leaves, some fruit",
+        "geo_range": "Central and Eastern Africa",
+        "image_link": "Colubusmonkey.JPG"
+    },
+    {
+        "name": "Black-breasted Leaf Turtle",
+        "latin_name": "Geoemyda spengleri",
+        "animal_type": "Reptile",
+        "habitat_id": 157,
+        "diet": "Invertebrates and fruit",
+        "geo_range": "China and Vietnam",
+        "image_link": "Stavenn_Geoemyda_spengleri.jpg"
+    },
+    {
+        "name": "Black-footed Cat",
+        "latin_name": "Felis nigripes",
+        "animal_type": "Mammal",
+        "habitat_id": 113,
+        "diet": "Mice, insects, spiders, lizards, and birds",
+        "geo_range": "Southern Africa",
+        "image_link": "Zoo_Wuppertal_Schwarzfusskatze.jpg"
+    },
+    {
+        "name": "Blue and Gold Macaw",
+        "latin_name": "Ara ararauna",
+        "animal_type": "Bird",
+        "habitat_id": 208,
+        "diet": "Seeds, fruits, and nuts",
+        "geo_range": "Central and South America",
+        "image_link": "Blue-and-Yellow-Macaw.jpg"
+    },
+    {
+        "name": "Blue Tree Monitor",
+        "latin_name": "Varanus macraei",
+        "animal_type": "Reptile",
+        "habitat_id": 201,
+        "diet": "Small animals, such as insects and frogs, and eggs",
+        "geo_range": "Batanta Island (Indonesia)",
+        "image_link": "Varanidae_-_Varanus_macraei.JPG"
+    },
+    {
+        "name": "Blue-crowned Laughing Thrush",
+        "latin_name": "Garrulax galbanus courtoisi",
+        "animal_type": "Bird",
+        "habitat_id": 143,
+        "diet": "Fruits, berries, and insects",
+        "geo_range": "Southern Asia",
+        "image_link": "Blue-crowned_Laughingthrush_10.jpg"
+    },
+    {
+        "name": "Blue-Crowned Motmot",
+        "latin_name": "Momotus momota",
+        "animal_type": "Bird",
+        "habitat_id": 169,
+        "diet": "Berries, fruits, insects and other small animals",
+        "geo_range": "Northern South America",
+        "image_link": "1-trinidad-motmot-blue-crowned-motmot-ken-archer.jpg"
+    },
+    {
+        "name": "Blue-tongued Skink",
+        "latin_name": "Tiliqua scincoides scincoides",
+        "animal_type": "Reptile",
+        "habitat_id": 145,
+        "diet": "Snails and other invertebrates, carrion, fruits, berries, and flowers",
+        "geo_range": "Australia, including Tasmania",
+        "image_link": "Tiliqua_scincoides_scincoides_01.jpg"
+    },
+    {
+        "name": "Boa Constrictor",
+        "latin_name": "Boa constrictor",
+        "animal_type": "Reptile",
+        "habitat_id": 124,
+        "diet": "Mammals and birds",
+        "geo_range": "Central and South America",
+        "image_link": "Boa_constrictor%2C_Va%C5%88kovka%2C_Brno_%282%29.jpg"
+    },
+    {
+        "name": "Boat-billed Heron",
+        "latin_name": "Cochlearius cochlearius",
+        "animal_type": "Bird",
+        "habitat_id": 207,
+        "diet": "Fish, frogs, shrimp, and insects",
+        "geo_range": "Mexico, Central and South America",
+        "image_link": "Cochlearius_cochleariaPCCA20071227-8443B.jpg"
+    },
+    {
+        "name": "Bonobo",
+        "latin_name": "Pan paniscus",
+        "animal_type": "Mammal",
+        "habitat_id": 201,
+        "diet": "Fruit, seeds, leaves, flowers, fungi, eggs, and small animals",
+        "geo_range": "Democratic Republic of the Congo",
+        "image_link": "Apeldoorn_Apenheul_zoo_Bonobo.jpg"
+    },
+    {
+        "name": "Brazilian Porcupine",
+        "latin_name": "Coendou prehensilis",
+        "animal_type": "Mammal",
+        "habitat_id": 205,
+        "diet": "Leaves, bark, fruits, shoots and small animals",
+        "geo_range": "Northern and eastern South America",
+        "image_link": "Prehensile-tailed_porcupine.jpg"
+    },
+    {
+        "name": "Buff-Cheeked Gibbon",
+        "latin_name": "Hylobales gabriellae",
+        "animal_type": "Mammal",
+        "habitat_id": 201,
+        "diet": "Fruit, leaves, and invertebrates",
+        "geo_range": "Southeast Asia",
+        "image_link": "Nomascus_gabriellae_25.JPG"
+    },
+    {
+        "name": "Buff-crested bustard",
+        "latin_name": "Eudpodotis ruficrista",
+        "animal_type": "Bird",
+        "habitat_id": 196,
+        "diet": "Arthropods, seeds, fruit and grains",
+        "geo_range": "Central southern Africa",
+        "image_link": "Crested_Bustard_-_Eupodotis_ruficrista_gindiana.jpg"
+    },
+    {
+        "name": "Burmese Brown Mountain Tortoise",
+        "latin_name": "Manouria emys emys",
+        "animal_type": "Reptile",
+        "habitat_id": 123,
+        "diet": "Grass, leaves, fungi, and fruit",
+        "geo_range": "Southeastern Asia",
+        "image_link": "Manouria-emys-asian-forest-tortoise.jpg"
+    },
+    {
+        "name": "Burmese Python",
+        "latin_name": "Python molurus",
+        "animal_type": "Reptile",
+        "habitat_id": 201,
+        "diet": "Birds, mammals, and reptiles",
+        "geo_range": "Southern and Southeastern Asia",
+        "image_link": "Burmese_python_%286887388927%29.jpg"
+    },
+    {
+        "name": "Cape Porcupine",
+        "latin_name": "Hystrix africaeaustralis",
+        "animal_type": "Mammal",
+        "habitat_id": 188,
+        "diet": "Fruit, roots, tubers and bulbs",
+        "geo_range": "Central and Southern Africa",
+        "image_link": "Hystrix_africaeaustralis_Blijdorp_Rotterdam.JPG"
+    },
+    {
+        "name": "Cheetah",
+        "latin_name": "Acinonyx jubatus",
+        "animal_type": "Mammal",
+        "habitat_id": 185,
+        "diet": "Small antelope, warthogs, hares, and game birds",
+        "geo_range": "Africa and Western Asia",
+        "image_link": "TheCheethcat.jpg"
+    },
+    {
+        "name": "Chinese Alligator",
+        "latin_name": "Alligator sinensis",
+        "animal_type": "Reptile",
+        "habitat_id": 176,
+        "diet": "Fish, mussels, and other small animals",
+        "geo_range": "Eastern China",
+        "image_link": "China-Alligator.jpg"
+    },
+    {
+        "name": "Chinese Crocodile Lizard",
+        "latin_name": "Shinisaurus crocodilurus",
+        "animal_type": "Reptile",
+        "habitat_id": 135,
+        "diet": "Snails, insects, worms, and other invertebrates",
+        "geo_range": "China and Vietnam",
+        "image_link": "Shinisaurus_crocodilurus_10.jpg"
+    },
+    {
+        "name": "Chuckwalla",
+        "latin_name": "Sauromalus ater",
+        "animal_type": "Reptile",
+        "habitat_id": 178,
+        "diet": "Leaves and fruit",
+        "geo_range": "United States and northwestern Mexico",
+        "image_link": "Sauromalus_ater_%283%29.jpg"
+    },
+    {
+        "name": "Clouded Leopard",
+        "latin_name": "Neofelis nebulosa",
+        "animal_type": "Mammal",
+        "habitat_id": 133,
+        "diet": "Primates, deer, wild boar, porcupines, small mammals, and birds",
+        "geo_range": "Southeastern Asia",
+        "image_link": "Clouded_Leopard_Neofelis_nebulosa_by_Dr_Raju_Kasambe_DSC_7497_%2828%29.JPG"
+    },
+    {
+        "name": "Common Eider",
+        "latin_name": "Somateria mollissima",
+        "animal_type": "Bird",
+        "habitat_id": 154,
+        "diet": "Fish, crustaceans, small animals",
+        "geo_range": "Northern coasts of Europe, North America and eastern Siberia",
+        "image_link": "Common_eider_male_at_Jones_Beach_%2804702%29.jpg"
+    },
+    {
+        "name": "Coquerel's Sifaka",
+        "latin_name": "Propithecus coquereli",
+        "animal_type": "Mammal",
+        "habitat_id": 123,
+        "diet": "Leaves, fruit, and flowers",
+        "geo_range": "Northwestern Madagascar",
+        "image_link": "Propithecus_coquereli_02.jpg"
+    },
+    {
+        "name": "Corn Snake",
+        "latin_name": "Pantherophis guttatus",
+        "animal_type": "Reptile",
+        "habitat_id": 217,
+        "diet": "Rodents, bats, lizards, frogs, birds, and eggs",
+        "geo_range": "Southeastern United States",
+        "image_link": "Corn_Snake_Adult.jpg"
+    },
+    {
+        "name": "Cougar",
+        "latin_name": "Puma concolor",
+        "animal_type": "Mammal",
+        "habitat_id": 114,
+        "diet": "Mammals ranging in size from mice to white-tail deer",
+        "geo_range": "Western North America, Florida, and Central and South America",
+        "image_link": "Mountain_Lion_in_Glacier_National_Park.jpg"
+    },
+    {
+        "name": "Crested Coua",
+        "latin_name": "Coua cristata",
+        "animal_type": "Bird",
+        "habitat_id": 134,
+        "diet": "Insects, fruits, berries, seeds, snails and chameleons",
+        "geo_range": "Madagascar",
+        "image_link": "Crested_Coua_RWD3.jpg"
+    },
+    {
+        "name": "Crested Guineafowl",
+        "latin_name": "Guttera pucherani",
+        "animal_type": "Bird",
+        "habitat_id": 127,
+        "diet": "Seeds, fruit, leaves, roots and invertebrates",
+        "geo_range": "Africa",
+        "image_link": "Flickr_-_Rainbirder_-_Crested_Guineafowl_%28Guttera_pucherani_pucherani%29.jpg"
+    },
+    {
+        "name": "Dumeril's Ground Boa",
+        "latin_name": "Acrantopis dumerili",
+        "animal_type": "Reptile",
+        "habitat_id": 117,
+        "diet": "Small mammals, birds, lizards, and frogs",
+        "geo_range": "Southwestern Madagascar",
+        "image_link": "Dumeril%27s_Madagascar_ground_boa_%28Acrantophis_dumerili%29_male_Reniala.jpg"
+    },
+    {
+        "name": "Dyeing Poison Dart Frog",
+        "latin_name": "Dendrobatus tinctorius",
+        "animal_type": "Amphibian",
+        "habitat_id": 205,
+        "diet": "Insects, spiders, and other small invertebrates",
+        "geo_range": "South America",
+        "image_link": "Dendrobates_tinctorius_-_Karlsruhe_Zoo_05.jpg"
+    },
+    {
+        "name": "Eastern Bongo",
+        "latin_name": "Tragelaphus eurycerus",
+        "animal_type": "Mammal",
+        "habitat_id": 153,
+        "diet": "Bushes, leaves, grasses, flowers, bark, and roots",
+        "geo_range": "Central Africa",
+        "image_link": "Eastern_Bongo_at_Jacksonville_Zoo.jpg"
+    },
+    {
+        "name": "Eastern Diamondback Rattlesnake",
+        "latin_name": "Crotalus adamanteus",
+        "animal_type": "Reptile",
+        "habitat_id": 214,
+        "diet": "Rabbits, squirrels and other rodents, and birds",
+        "geo_range": "Southeastern United States",
+        "image_link": "Crotalus_adamanteus_25.jpg"
+    },
+    {
+        "name": "Eastern Screech Owl",
+        "latin_name": "Megascops asio",
+        "animal_type": "Bird",
+        "habitat_id": 215,
+        "diet": "Small mammals, insects, frogs, worms and lizards",
+        "geo_range": "Eastern United States",
+        "image_link": "EasternScreechOwl-Rufous.jpg"
+    },
+    {
+        "name": "Emerald Tree Boa",
+        "latin_name": "Corallus caninus",
+        "animal_type": "Reptile",
+        "habitat_id": 205,
+        "diet": "Rodents and other small animals",
+        "geo_range": "South America",
+        "image_link": "Emerald_Tree_Boa_Wrapped_on_a_Branch_2480px.jpg"
+    },
+    {
+        "name": "Eurasian Eagle Owl",
+        "latin_name": "Bubo bubo",
+        "animal_type": "Bird",
+        "habitat_id": 177,
+        "diet": "Mammals, such as rabbits and rodents, and birds",
+        "geo_range": "Europe and Asia",
+        "image_link": "Bubo_bubo_3_%28Martin_Mecnarowski%29.jpg"
+    },
+    {
+        "name": "Fairy Bluebird",
+        "latin_name": "Irena puella",
+        "animal_type": "Bird",
+        "habitat_id": 123,
+        "diet": "Fruit, nectar, and insects",
+        "geo_range": "South and Southeast Asia",
+        "image_link": "Fairy_bluebird_male_-_Irena_puella.jpg"
+    },
+    {
+        "name": "Fennec Fox",
+        "latin_name": "Vulpes zerda",
+        "animal_type": "Mammal",
+        "habitat_id": 110,
+        "diet": "Fruit, seeds, eggs, termites, and lizards",
+        "geo_range": "Northern Africa and western Asia",
+        "image_link": "Fennec_Fox.jpg"
+    },
+    {
+        "name": "Fire-bellied newt",
+        "latin_name": "Cynops pyrrhogaster pyrrhogaster",
+        "animal_type": "Amphibian",
+        "habitat_id": 168,
+        "diet": "Aquatic invertebrates",
+        "geo_range": "Japan",
+        "image_link": "Cynops_ensicauda_popei.jpg"
+    },
+    {
+        "name": "Florida Manatee",
+        "latin_name": "Trichechus manatus latirostris",
+        "animal_type": "Mammal",
+        "habitat_id": 106,
+        "diet": "Aquatic plants",
+        "geo_range": "Southeastern United States",
+        "image_link": "Manatee_at_Sea_World_Orlando_Mar_10.JPG"
+    },
+    {
+        "name": "Florida Pine Snake",
+        "latin_name": "Pituophis melanoleucus mugitus",
+        "animal_type": "Reptile",
+        "habitat_id": 181,
+        "diet": "Small mammals, birds and bird eggs",
+        "geo_range": "Southeastern United States",
+        "image_link": "G-Bartolotti_FL_pine.jpg"
+    },
+    {
+        "name": "Galapagos Tortoise",
+        "latin_name": "Geochelone nigra microphyes",
+        "animal_type": "Reptile",
+        "habitat_id": 118,
+        "diet": "Cactus, fruit, flowers, leaves, and grasses",
+        "geo_range": "Galapagos Islands",
+        "image_link": "Galapagos_giant_tortoise_Geochelone_elephantopus.jpg"
+    },
+    {
+        "name": "Giant Fruit Bat",
+        "latin_name": "Pteropus giganteus",
+        "animal_type": "Mammal",
+        "habitat_id": 203,
+        "diet": "Primarily fruit and flowers (juice & nectar), some insects",
+        "geo_range": "Southern Asia",
+        "image_link": "Lyles_flyvende_hund_Pteropus_lylei.jpg"
+    },
+    {
+        "name": "Golden-headed Lion Tamarin",
+        "latin_name": "Leontopithecus chrysomelas",
+        "animal_type": "Mammal",
+        "habitat_id": 205,
+        "diet": "Fruit, flowers, nectar, gum and small animals",
+        "geo_range": "Eastern Brazil",
+        "image_link": "Leontopithecus_chrysomelas_%28portrait%29.jpg"
+    },
+    {
+        "name": "Greater Bushbaby",
+        "latin_name": "Otolemur garnetti",
+        "animal_type": "Mammal",
+        "habitat_id": 123,
+        "diet": "Fruit and insects",
+        "geo_range": "Eastern Africa",
+        "image_link": "Garnett%27s_Galago_%28Greater_Bushbaby%29.jpg"
+    },
+    {
+        "name": "Greater Flamingo",
+        "latin_name": "Phoenicopterus roseus",
+        "animal_type": "Bird",
+        "habitat_id": 207,
+        "diet": "Seeds, algae, and small invertebrates",
+        "geo_range": "Africa, Southwest Europe, and Asia",
+        "image_link": "Flamant_rose_Salines_de_Thyna.jpg"
+    },
+    {
+        "name": "Green and Black Poison Dart Frog",
+        "latin_name": "Dendrobatus auratus",
+        "animal_type": "Amphibian",
+        "habitat_id": 205,
+        "diet": "Insects, spiders, and other small invertebrates",
+        "geo_range": "Central and South America",
+        "image_link": "Green_and_black_poison_dart_frog_at_Slimbridge_Wetland_Centre%2C_Gloucestershire%2C_England_arp.jpg"
+    },
+    {
+        "name": "Green Basilisk",
+        "latin_name": "Basiliscus plumifrons",
+        "animal_type": "Reptile",
+        "habitat_id": 205,
+        "diet": "Seeds, fruit, leaves, insects and other small animals",
+        "geo_range": "Central America",
+        "image_link": "Green_Basilisk%2C_Alajuela%2C_Costa_Rica.jpg"
+    },
+    {
+        "name": "Green Tree Monitor",
+        "latin_name": "Varanus prasinus",
+        "animal_type": "Reptile",
+        "habitat_id": 128,
+        "diet": "Small animals, such as insects and crabs, and eggs",
+        "geo_range": "New Guinea and northern Australia",
+        "image_link": "Varanus_prasinus.jpg"
+    },
+    {
+        "name": "Grey Crowned Crane",
+        "latin_name": "Balearica regulorum",
+        "animal_type": "Bird",
+        "habitat_id": 209,
+        "diet": "Grasses, seeds, insects, and other small animals",
+        "geo_range": "Eastern and southern Africa",
+        "image_link": "Grey_crowned_crane_at_Martin_Mere.JPG"
+    },
+    {
+        "name": "Grey Fox",
+        "latin_name": "Urocyon cinereoargenteus",
+        "animal_type": "Mammal",
+        "habitat_id": 211,
+        "diet": "Small mammals and birds, some fruits and seeds",
+        "geo_range": "Southern Canada to northern South America",
+        "image_link": "Grey_Fox_%28Urocyon_cinereoargenteus%29.jpg"
+    },
+    {
+        "name": "Guam Rail",
+        "latin_name": "Hypotaenidia owstoni",
+        "animal_type": "Bird",
+        "habitat_id": 124,
+        "diet": "Small animals, carrion, seeds, and leaves",
+        "geo_range": "Guam",
+        "image_link": "GuamRail02.jpg"
+    },
+    {
+        "name": "Hamerkop",
+        "latin_name": "Scopus umbretta",
+        "animal_type": "Bird",
+        "habitat_id": 210,
+        "diet": "Frogs, fish, crustaceans, worms, and insects",
+        "geo_range": "Sub-Saharan Africa, Madagascar, and southwestern Asia",
+        "image_link": "Hamerkop_%28Scopus_umbretta_umbretta%29.jpg"
+    },
+    {
+        "name": "Hellbender",
+        "latin_name": "Cryptobranchus alleganiensis",
+        "animal_type": "Amphibian",
+        "habitat_id": 173,
+        "diet": "Crayfish, small fish and aquatic insects",
+        "geo_range": "Midwestern United States",
+        "image_link": "Hellbender_Cryptobranchus_alleganiensis.jpg"
+    },
+    {
+        "name": "Hippopotamus",
+        "latin_name": "Hippopotamus amphibius",
+        "animal_type": "Mammal",
+        "habitat_id": 146,
+        "diet": "Grass",
+        "geo_range": "Southern Africa",
+        "image_link": "Hippo_%28Hippopotamus_amphibius%29_%2816485955207%29.jpg"
+    },
+    {
+        "name": "Horned Puffin",
+        "latin_name": "Fratercula corniculata",
+        "animal_type": "Bird",
+        "habitat_id": 164,
+        "diet": "Fish, mollusks and crustaceans",
+        "geo_range": "Bering Sea, Arctic and North Pacific oceans",
+        "image_link": "Fratercula_corniculataUSFWSSL0002774.jpg"
+    },
+    {
+        "name": "Howler Monkey",
+        "latin_name": "Alouatta caraya",
+        "animal_type": "Mammal",
+        "habitat_id": 201,
+        "diet": "Leaves, flowers and fruit",
+        "geo_range": "South America",
+        "image_link": "Alouatta_guariba.jpg"
+    },
+    {
+        "name": "Hyacinth Macaw",
+        "latin_name": "Anodorhynchus hyacinthinus",
+        "animal_type": "Bird",
+        "habitat_id": 126,
+        "diet": "Nuts and fruit",
+        "geo_range": "North-central South America",
+        "image_link": "Anodorhynchus_hyacinthinus_-Disney_-Florida-8.jpg"
+    },
+    {
+        "name": "Impala",
+        "latin_name": "Aepyceros melampus",
+        "animal_type": "Mammal",
+        "habitat_id": 187,
+        "diet": "Grasses and leaves",
+        "geo_range": "Southern and East Africa",
+        "image_link": "Trotting_impala_ram%2C_crop.jpg"
+    },
+    {
+        "name": "Inca Tern",
+        "latin_name": "Larosterna inca",
+        "animal_type": "Bird",
+        "habitat_id": 102,
+        "diet": "Small fish and marine invertebrates",
+        "geo_range": "Coast and coastal islands of Chile and Peru",
+        "image_link": "Larosterna_inca_-Lima%2C_Peru_-family-8.jpg"
+    },
+    {
+        "name": "Indian Star Tortoise",
+        "latin_name": "Geochelone elegans",
+        "animal_type": "Reptile",
+        "habitat_id": 131,
+        "diet": "Grass, weeds, fruits and flowers",
+        "geo_range": "Southern India and Sri Lanka",
+        "image_link": "Davidraju_IMG_7365.jpg"
+    },
+    {
+        "name": "Indochinese Spitting Cobra",
+        "latin_name": "Naja siamensis",
+        "animal_type": "Reptile",
+        "habitat_id": 123,
+        "diet": "Rodents, snakes and other small animals",
+        "geo_range": "Southeast Asia",
+        "image_link": "Naja-siamensis-indochinese-spitting-cobra-southwest-thailand.jpg"
+    },
+    {
+        "name": "Jamaican Boa",
+        "latin_name": "Chilabothrus subflavus",
+        "animal_type": "Reptile",
+        "habitat_id": 201,
+        "diet": "Mammals and birds",
+        "geo_range": "Jamaica",
+        "image_link": "Epicrates_subflavus.jpg"
+    },
+    {
+        "name": "Kangaroo",
+        "latin_name": "Macropodidae",
+        "animal_type": "Marsupial",
+        "habitat_id": 124,
+        "diet": "Grass, herbs, leaves, and tree bark",
+        "geo_range": "Eastern Australia",
+        "image_link": "Kangaroo_Australia_01_11_2008_-_retouch.JPG"
+    },
+    {
+        "name": "Kea",
+        "latin_name": "Nestor notabilis",
+        "animal_type": "Bird",
+        "habitat_id": 157,
+        "diet": "Plants, animals, and carrion",
+        "geo_range": "New Zealand",
+        "image_link": "Nestor_notabilis_-Fiordland%2C_New_Zealand-8b.jpg"
+    },
+    {
+        "name": "King Cobra",
+        "latin_name": "Ophiophagus hannah",
+        "animal_type": "Reptile",
+        "habitat_id": 108,
+        "diet": "Lizards and snakes, including venomous species",
+        "geo_range": "Southeastern Asia and the Philippines",
+        "image_link": "12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg"
+    },
+    {
+        "name": "King Penguin",
+        "latin_name": "Aptenodytes patagonius",
+        "animal_type": "Bird",
+        "habitat_id": 162,
+        "diet": "Squid, crustaceans, and fish",
+        "geo_range": "Sub-Antarctic islands",
+        "image_link": "SGI-2016-South_Georgia_%28Fortuna_Bay%29%E2%80%93King_penguin_%28Aptenodytes_patagonicus%29_04.jpg"
+    },
+    {
+        "name": "Komodo Dragon",
+        "latin_name": "Varanus komodoensis",
+        "animal_type": "Reptile",
+        "habitat_id": 148,
+        "diet": "Wild pigs, buffalo, deer, other animals, and carrion",
+        "geo_range": "Indonesian islands",
+        "image_link": "Komodo_dragon_%28Varanus_komodoensis%29_4.jpg"
+    },
+    {
+        "name": "Lady Ross' Turaco",
+        "latin_name": "Musophaga rossae",
+        "animal_type": "Bird",
+        "habitat_id": 123,
+        "diet": "Fruit and berries; some insects",
+        "geo_range": "Central Africa",
+        "image_link": "Musophaga_rossae_-Lady_Ross%27_Turaco_-Houston_Zoo.jpg"
+    },
+    {
+        "name": "Lappet-faced Vulture",
+        "latin_name": "Torgos tracheliotos",
+        "animal_type": "Bird",
+        "habitat_id": 189,
+        "diet": "Carrion, small mammals and birds",
+        "geo_range": "Africa and Middle East",
+        "image_link": "2012-lappet-faced-vulture.jpg"
+    },
+    {
+        "name": "Large-spotted Genet",
+        "latin_name": "Genetta tigrina",
+        "animal_type": "Mammal",
+        "habitat_id": 132,
+        "diet": "Small rodents, birds, reptiles, invertebrates, and fruit",
+        "geo_range": "Southern Africa",
+        "image_link": "Large-spotted_Genet_%28Genetta_tigrina%29_%2817356502041%29_%28crop%29.jpg"
+    },
+    {
+        "name": "Laughing Kookaburra",
+        "latin_name": "Dacelo navaeguineae",
+        "animal_type": "Bird",
+        "habitat_id": 123,
+        "diet": "Insects, snakes, lizards, rodents, and small birds",
+        "geo_range": "Australia, Tasmania and New Zealand",
+        "image_link": "Laughing_kookaburra_dec08_02.jpg"
+    },
+    {
+        "name": "Lesser Kudu",
+        "latin_name": "Tragelaphus imberbis",
+        "animal_type": "Mammal",
+        "habitat_id": 198,
+        "diet": "Leaves, twigs, fruit and seed pods",
+        "geo_range": "East Africa",
+        "image_link": "Lesser_Kudu_Male_%28Tragelaphus_imberbis%29.jpg"
+    },
+    {
+        "name": "Little Blue Penguin",
+        "latin_name": "Eudyptula minor",
+        "animal_type": "Bird",
+        "habitat_id": 161,
+        "diet": "Fish and marine invertebrates",
+        "geo_range": "Australia and New Zealand",
+        "image_link": "Little_Penguin_Feb09.jpg"
+    },
+    {
+        "name": "Llama",
+        "latin_name": "Lama glama",
+        "animal_type": "Mammal",
+        "habitat_id": 150,
+        "diet": "Grass",
+        "geo_range": "Andes Mountains of South America",
+        "image_link": "Black_Llama.jpg"
+    },
+    {
+        "name": "Longnose Gar",
+        "latin_name": "Lepisosteus osseus",
+        "animal_type": "Fish",
+        "habitat_id": 175,
+        "diet": "Small fish",
+        "geo_range": "North America east of the Mississippi River",
+        "image_link": "Longnose_gar%2C_Boston_Aquarium.JPG"
+    },
+    {
+        "name": "Madagascar Giant Day Gecko",
+        "latin_name": "Phelsuma madagascariensis grandis",
+        "animal_type": "Reptile",
+        "habitat_id": 123,
+        "diet": "Insects and other small animals, fruit, and honey",
+        "geo_range": "Northern Madagascar",
+        "image_link": "Madagascar_giant_day_gecko_%28Phelsuma_grandis%29_Nosy_Komba.jpg"
+    },
+    {
+        "name": "Magellanic Penguin",
+        "latin_name": "Spheniscus magellanicus",
+        "animal_type": "Bird",
+        "habitat_id": 161,
+        "diet": "Small fish and squid",
+        "geo_range": "Pacific and Atlantic Oceans and coasts of southern South America",
+        "image_link": "Magellanic_penguin%2C_Valdes_Peninsula%2C_e.jpg"
+    },
+    {
+        "name": "Magpie Goose",
+        "latin_name": "Anseranas semipalmata",
+        "animal_type": "Bird",
+        "habitat_id": 207,
+        "diet": "Aquatic plants",
+        "geo_range": "Northern Australia",
+        "image_link": "Magpie_Goose_taking_off.jpg"
+    },
+    {
+        "name": "Major Mitchell's Cockatoo",
+        "latin_name": "Cacatua leadbeateri",
+        "animal_type": "Bird",
+        "habitat_id": 124,
+        "diet": "Seeds, nuts, fruits, berries, and roots",
+        "geo_range": "Australia",
+        "image_link": "Major_Mitchell%27s_Cockatoo_1_-_Mt_Grenfell.jpg"
+    },
+    {
+        "name": "Malayan Tiger",
+        "latin_name": "Panthera tigris jacksoni",
+        "animal_type": "Mammal",
+        "habitat_id": 123,
+        "diet": "Deer, wild pigs, and cattle",
+        "geo_range": "Malaysia and southern Thailand",
+        "image_link": "MalayanTiger01.jpg"
+    },
+    {
+        "name": "Masai Giraffe",
+        "latin_name": "Giraffa camelopardalis tippelskirchi",
+        "animal_type": "Mammal",
+        "habitat_id": 183,
+        "diet": "Leaves, shoots, and fruits",
+        "geo_range": "Southern Kenya and Tanzania",
+        "image_link": "Mannetjes_masaigiraffe_in_de_Serengeti%2C_Tanzania%2C_-12_januari_2013_a.jpg"
+    },
+    {
+        "name": "Masked Lapwing",
+        "latin_name": "Vanellus miles",
+        "animal_type": "Bird",
+        "habitat_id": 209,
+        "diet": "Worms and insects",
+        "geo_range": "Australia, New Zealand and Papua New Guinea",
+        "image_link": "Prague_07-2016_Zoo_img02_Vanellus_miles.jpg"
+    },
+    {
+        "name": "Matamata",
+        "latin_name": "Chelus fimbriatus",
+        "animal_type": "Reptile",
+        "habitat_id": 197,
+        "diet": "Fish",
+        "geo_range": "Northern South America",
+        "image_link": "2009_Chelus_fimbriatus.JPG"
+    },
+    {
+        "name": "Meerkat",
+        "latin_name": "Suricata suricatta",
+        "animal_type": "Mammal",
+        "habitat_id": 184,
+        "diet": "Insects, lizards, scorpions, and other small animals",
+        "geo_range": "Southern Africa",
+        "image_link": "Meerkat_%28Suricata_suricatta%29_Tswalu.jpg"
+    },
+    {
+        "name": "Mexican Wolf",
+        "latin_name": "Canis lupus baileyei",
+        "animal_type": "Mammal",
+        "habitat_id": 156,
+        "diet": "Elk, deer, peccaries, rabbits, rodents, and carrion",
+        "geo_range": "Arizona and New Mexico",
+        "image_link": "Mexican_Wolf_2_yfb-edit_1.jpg"
+    },
+    {
+        "name": "Mini-Juliana Pig",
+        "latin_name": "Sus domesticus",
+        "animal_type": "Mammal",
+        "habitat_id": 115,
+        "diet": "Pellets, fruits and veggies",
+        "geo_range": "Raised domestically around the world",
+        "image_link": "image-3-e1426360082120.jpeg"
+    },
+    {
+        "name": "Mosquitofish",
+        "latin_name": "Gambusia affinis",
+        "animal_type": "Fish",
+        "habitat_id": 151,
+        "diet": "Mosquito larva",
+        "geo_range": "Gulf of Mexico",
+        "image_link": "Mosquitofish.jpg"
+    },
+    {
+        "name": "Mueller's Gibbon",
+        "latin_name": "Hylobates muelleri",
+        "animal_type": "Mammal",
+        "habitat_id": 205,
+        "diet": "Primarily fruit; some leaves, flowers, and invertebrates",
+        "geo_range": "Borneo, Southeast Asia",
+        "image_link": "MuellersGibbon.jpg"
+    },
+    {
+        "name": "Naked Mole-rat",
+        "latin_name": "Heterocephalus glaber",
+        "animal_type": "Mammal",
+        "habitat_id": 184,
+        "diet": "Roots and tubers",
+        "geo_range": "Eastern Africa",
+        "image_link": "Nacktmull.jpg"
+    },
+    {
+        "name": "Nicobar pigeon",
+        "latin_name": "Caloenas nicobarica",
+        "animal_type": "Bird",
+        "habitat_id": 172,
+        "diet": "Seeds, fruit and some invertebrates",
+        "geo_range": "Southeast Asian islands (Palau, Nicobar, Solomon and Philippine)",
+        "image_link": "Adult_Nicobar_Pigeon.jpg"
+    },
+    {
+        "name": "Nigerian Dwarf Goat",
+        "latin_name": "Capra aegagrus hircus",
+        "animal_type": "Mammal",
+        "habitat_id": 115,
+        "diet": "Hay and grain",
+        "geo_range": "Raised domestically around the world",
+        "image_link": "Nigerdwarfgoat.jpg"
+    },
+    {
+        "name": "North American River Otter",
+        "latin_name": "Lutra canadensis",
+        "animal_type": "Mammal",
+        "habitat_id": 141,
+        "diet": "Fish, crayfish, ducklings, turtles, and other small animals",
+        "geo_range": "Canada and the United States",
+        "image_link": "North_American_River_Otter_-_CNP_3361_%287056954311%29.jpg"
+    },
+    {
+        "name": "Nubian Goat",
+        "latin_name": "Capra aegagrus hircus",
+        "animal_type": "Mammal",
+        "habitat_id": 115,
+        "diet": "Hay and grain",
+        "geo_range": "Raised domestically around the world",
+        "image_link": "Anglo-Nubian_goat_%26_kid%2C_Bristol%2C_England_arp.jpg"
+    },
+    {
+        "name": "Okapi",
+        "latin_name": "Okapia johnstoni",
+        "animal_type": "Mammal",
+        "habitat_id": 123,
+        "diet": "Leaves, grass, fruit and fungi",
+        "geo_range": "Democratic Republic of Congo, Africa",
+        "image_link": "Saint-Aignan_%28Loir-et-Cher%29._Okapi.jpg"
+    },
+    {
+        "name": "Ornate Horned Frog",
+        "latin_name": "Ceratophrys ornata",
+        "animal_type": "Reptile",
+        "habitat_id": 169,
+        "diet": "Lizards, mice, frogs, insects, and other small animals",
+        "geo_range": "Argentina, Uruguay, and southern Brazil",
+        "image_link": "Mr_Wiggles_7-20-07_%28870844637%29.jpg"
+    },
+    {
+        "name": "Ornate Monitor",
+        "latin_name": "Varanus ornatus",
+        "animal_type": "Reptile",
+        "habitat_id": 219,
+        "diet": "Insects, fish, frogs, reptiles, birds, mammals, and carrion",
+        "geo_range": "Central and Southern Africa",
+        "image_link": "OrnateMonitor.jpg"
+    },
+    {
+        "name": "Ostrich",
+        "latin_name": "Struthio camelus",
+        "animal_type": "Bird",
+        "habitat_id": 190,
+        "diet": "Seeds, leaves, fruit; some insects and carrion",
+        "geo_range": "Central and Southern Africa",
+        "image_link": "Struthio_camelus_-_Etosha_2014_%283%29.jpg"
+    },
+    {
+        "name": "Pallas's Cat",
+        "latin_name": "Octocolobus manul",
+        "animal_type": "Mammal",
+        "habitat_id": 160,
+        "diet": "Pikas, hares, and small rodents such as gerbils, voles, and young marmots",
+        "geo_range": "Central Asia",
+        "image_link": "Manoel.jpg"
+    },
+    {
+        "name": "Pancake Tortoise",
+        "latin_name": "Malacochersus tornieri",
+        "animal_type": "Reptile",
+        "habitat_id": 180,
+        "diet": "Grasses, leaves, and fruit",
+        "geo_range": "Eastern central Africa",
+        "image_link": "Malacochersus_tornieri.jpg"
+    },
+    {
+        "name": "Parma Wallaby",
+        "latin_name": "Macropus parma",
+        "animal_type": "Marsupial",
+        "habitat_id": 124,
+        "diet": "Grass",
+        "geo_range": "Australia and New Zealand",
+        "image_link": "Parma_wallaby_crop2.jpg"
+    },
+    {
+        "name": "Pascagoula Map Turtle",
+        "latin_name": "Graptemys gibbonsi",
+        "animal_type": "Reptile",
+        "habitat_id": 107,
+        "diet": "Insects, snails, and clams",
+        "geo_range": "Pascagoula River system, Mississippi ",
+        "image_link": "Graptemys.gibbonsi.jpg"
+    },
+    {
+        "name": "Pigeon Guillemot",
+        "latin_name": "Cepphus columba",
+        "animal_type": "Bird",
+        "habitat_id": 163,
+        "diet": "Fish and aquatic invertebrates",
+        "geo_range": "Arctic and Pacific oceans and coasts of North America and Asia",
+        "image_link": "Pigeon_guillemot.jpg"
+    },
+    {
+        "name": "Pink-backed Pelican",
+        "latin_name": "Pelecanus rufescens",
+        "animal_type": "Bird",
+        "habitat_id": 207,
+        "diet": "Mainly fish; some frogs and insects",
+        "geo_range": "Central and southern Africa",
+        "image_link": "Pink_backed_pelican_side_view.jpg"
+    },
+    {
+        "name": "Plains Zebra",
+        "latin_name": "Equus quagga",
+        "animal_type": "Mammal",
+        "habitat_id": 187,
+        "diet": "Grass",
+        "geo_range": "Eastern and Southern Africa",
+        "image_link": "Equus_quagga_burchellii_-_Etosha%2C_2014.jpg"
+    },
+    {
+        "name": "Poison Dart Frog",
+        "latin_name": "Dendrobates tinctorius",
+        "animal_type": "Amphibian",
+        "habitat_id": 205,
+        "diet": "Ants, termites, and small flies",
+        "geo_range": "Northern South America",
+        "image_link": "F%C3%A4rberfrosch_Dendrobates_tinctorius.jpg"
+    },
+    {
+        "name": "Potto",
+        "latin_name": "Perodictus potto",
+        "animal_type": "Mammal",
+        "habitat_id": 201,
+        "diet": "Fruit, insects and other small animals",
+        "geo_range": "Western and Central Africa",
+        "image_link": "Potto.jpg"
+    },
+    {
+        "name": "Quince Monitor",
+        "latin_name": "Varanus melinus",
+        "animal_type": "Reptile",
+        "habitat_id": 202,
+        "diet": "Small animals, such as insects and frogs, and eggs",
+        "geo_range": "Sula Islands, Indonesia.",
+        "image_link": "861567355186_45.jpg"
+    },
+    {
+        "name": "Radiated Tortoise",
+        "latin_name": "Geochelone radiate",
+        "animal_type": "Reptile",
+        "habitat_id": 121,
+        "diet": "Grass, fruit, and cactus",
+        "geo_range": "Southern Madagascar",
+        "image_link": "Radiated_tortoise_%28Astrochelys_radiata%29_Tsimanampetsotsa.jpg"
+    },
+    {
+        "name": "Raggiana Bird-of-paradise",
+        "latin_name": "Paradisaea raggiana",
+        "animal_type": "Bird",
+        "habitat_id": 123,
+        "diet": "Fruit, berries, insects, frogs, and lizards",
+        "geo_range": "New Guinea",
+        "image_link": "Raggiana_bird_of_paradise.jpg"
+    },
+    {
+        "name": "Rainbow Boa",
+        "latin_name": "Epicrates cenchria",
+        "animal_type": "Reptile",
+        "habitat_id": 212,
+        "diet": "Small mammals and birds",
+        "geo_range": "South America",
+        "image_link": "EpicratesCenchriaCenchria1.jpg"
+    },
+    {
+        "name": "Red and Yellow Barbet",
+        "latin_name": "Trachyphonus erythrocephalus",
+        "animal_type": "Bird",
+        "habitat_id": 212,
+        "diet": "Fruit, seeds, insects, and other small animals",
+        "geo_range": "Central eastern Africa",
+        "image_link": "Lake_Manyara_Bartvogel.jpg"
+    },
+    {
+        "name": "Red Panda",
+        "latin_name": "Ailurus fulgens",
+        "animal_type": "Mammal",
+        "habitat_id": 157,
+        "diet": "Primarily bamboo shoots and leaves; some roots, fruit, grasses, acorns, lichens, small animals",
+        "geo_range": "South to Southeast Asia",
+        "image_link": "RedPandaFullBody.JPG"
+    },
+    {
+        "name": "Red River Hog",
+        "latin_name": "Potamochoerus porcus",
+        "animal_type": "Mammal",
+        "habitat_id": 170,
+        "diet": "Primarily roots and bulbs, some other plant parts and small animals",
+        "geo_range": "Western and central Africa",
+        "image_link": "Pinselohrschwein_Potamochoerus_porcus_Tierpark_Hellabrunn-5.jpg"
+    },
+    {
+        "name": "Red-capped Cardinal",
+        "latin_name": "Paroaria coronata",
+        "animal_type": "Bird",
+        "habitat_id": 195,
+        "diet": "Seeds and invertebrates",
+        "geo_range": "South America from Brazil to Argentina",
+        "image_link": "Paroaria_gularis%2C_Red-capped_Cardinal.jpg"
+    },
+    {
+        "name": "Red-crowned crane",
+        "latin_name": "Grus japonensis",
+        "animal_type": "Bird",
+        "habitat_id": 207,
+        "diet": "Aquatic animals and plants",
+        "geo_range": "East Asia ",
+        "image_link": "Grus_japonensis_-Hokkaido%2C_Japan_-several-8_%281%29.jpg"
+    },
+    {
+        "name": "Red-eared Slider",
+        "latin_name": "Trachemys scripta elegans",
+        "animal_type": "Reptile",
+        "habitat_id": 139,
+        "diet": "Fish, mollusks, and insects",
+        "geo_range": "Southern and Midwestern United States",
+        "image_link": "RedEaredSlider05.jpg"
+    },
+    {
+        "name": "Rhinoceros Hornbill",
+        "latin_name": "Buceros rhinoceros",
+        "animal_type": "Bird",
+        "habitat_id": 123,
+        "diet": "Fruit and small animals",
+        "geo_range": "Malay peninsula and Borneo",
+        "image_link": "Buceros_rhinoceros_-Singapore_Zoo_-pair-8a.jpg"
+    },
+    {
+        "name": "Ring-tailed Lemur",
+        "latin_name": "Lemur catta",
+        "animal_type": "Mammal",
+        "habitat_id": 123,
+        "diet": "Fruit, leaves, flowers and insects",
+        "geo_range": "Southern and Southwestern Madagascar",
+        "image_link": "Ring-tailed_lemur_%28Lemur_catta%29.jpg"
+    },
+    {
+        "name": "Ringtail",
+        "latin_name": "Bassariscus astutus",
+        "animal_type": "Mammal",
+        "habitat_id": 129,
+        "diet": "Small mammals, insects, birds, reptiles and fruit",
+        "geo_range": "Southwestern United States and Mexico",
+        "image_link": "Ringtail_ZionFB_edited.jpg"
+    },
+    {
+        "name": "Rough Green Snake",
+        "latin_name": "Opheodrys aestivus",
+        "animal_type": "Reptile",
+        "habitat_id": 155,
+        "diet": "Insects and spiders",
+        "geo_range": "Southeastern United States",
+        "image_link": "Rough_Green_Snake.jpg"
+    },
+    {
+        "name": "Ruddy Shelduck",
+        "latin_name": "Tadorna ferruginea",
+        "animal_type": "Bird",
+        "habitat_id": 142,
+        "diet": "Variety of aquatic and terrestrial vegetation, insects, fish, frogs and worms",
+        "geo_range": "Northern Africa, Middle East, Europe, and Asia",
+        "image_link": "Ruddy_Shelduck_or_Brahminy_Duck_.jpg"
+    },
+    {
+        "name": "Ruppell's Griffon Vulture",
+        "latin_name": "Gyps rueppellii",
+        "animal_type": "Bird",
+        "habitat_id": 218,
+        "diet": "Carrion",
+        "geo_range": "Africa",
+        "image_link": "R%C3%BCppell%27s_Vulture_%28Gyps_rueppelli%29_%2821160089681%29.jpg"
+    },
+    {
+        "name": "Saddle-billed Stork",
+        "latin_name": "Ephippiorhynchus senegalensis",
+        "animal_type": "Bird",
+        "habitat_id": 138,
+        "diet": "Mainly fish, some other small aquatic creatures, insects and carrion",
+        "geo_range": "Central Africa",
+        "image_link": "Saddle-billed_Stork_in_flight.jpg"
+    },
+    {
+        "name": "Salmon-Crested Cockatoo",
+        "latin_name": "Cacatua moluccensis",
+        "animal_type": "Bird",
+        "habitat_id": 125,
+        "diet": "Seeds and fruit",
+        "geo_range": "Southern Moluccas, Indonesia",
+        "image_link": "Cacatua_moluccensis_-Cincinnati_Zoo-8a.jpg"
+    },
+    {
+        "name": "Sand Cat",
+        "latin_name": "Felis margarita",
+        "animal_type": "Mammal",
+        "habitat_id": 110,
+        "diet": "Small rodents, lizards and insects",
+        "geo_range": "North Africa and southwest Asia",
+        "image_link": "Persian_sand_CAT.jpg"
+    },
+    {
+        "name": "Scarlet Ibis",
+        "latin_name": "Eudocimus ruber",
+        "animal_type": "Bird",
+        "habitat_id": 104,
+        "diet": "Small crayfish, snails and amphibians",
+        "geo_range": "Northern South America",
+        "image_link": "Scarlet_Ibis_SMTC.jpg"
+    },
+    {
+        "name": "Screaming Hairy Armadillo",
+        "latin_name": "Chaetophractus vellerosus",
+        "animal_type": "Mammal",
+        "habitat_id": 111,
+        "diet": "Plants, insects, and other small animals",
+        "geo_range": "Central South America",
+        "image_link": "Chaetophractus_vellerosus3.jpg"
+    },
+    {
+        "name": "Serval",
+        "latin_name": "Leptailurus serval",
+        "animal_type": "Mammal",
+        "habitat_id": 184,
+        "diet": "Game birds, rodents, small ungulates",
+        "geo_range": "Africa",
+        "image_link": "Leptailurus_serval_-Serengeti_National_Park%2C_Tanzania-8.jpg"
+    },
+    {
+        "name": "Siamang",
+        "latin_name": "Hylobates syndactylus",
+        "animal_type": "Mammal",
+        "habitat_id": 205,
+        "diet": "Primarily fruit and leaves, some invertebrates",
+        "geo_range": "Malaysia and Sumatra",
+        "image_link": "DPPP_5348.jpg"
+    },
+    {
+        "name": "Smew",
+        "latin_name": "Mergellus albellus",
+        "animal_type": "Bird",
+        "habitat_id": 122,
+        "diet": "Fish, frogs, crustaceans, insects, and insect larvae",
+        "geo_range": "Europe, Asia, and northern Africa",
+        "image_link": "Zwergsaeger_maenchen_weibchen.jpg"
+    },
+    {
+        "name": "Snow Leopard",
+        "latin_name": "Uncia uncia",
+        "animal_type": "Mammal",
+        "habitat_id": 159,
+        "diet": "Primarily blue sheep and ibex; some other hoofed mammals, hares, rodents and birds",
+        "geo_range": "Central Asia",
+        "image_link": "Irbis4.JPG"
+    },
+    {
+        "name": "Southern Brazilian Ocelot",
+        "latin_name": "Leopardus pardalis mitis",
+        "animal_type": "Mammal",
+        "habitat_id": 200,
+        "diet": "Small mammals such as rodents, possums and armadillos, some reptiles and birds",
+        "geo_range": "Central and eastern South America",
+        "image_link": "Ocelot_%28Jaguatirica%29_Zoo_Itatiba.jpg"
+    },
+    {
+        "name": "Southern Copperhead",
+        "latin_name": "Agkistrodon contortrix contortix",
+        "animal_type": "Reptile",
+        "habitat_id": 216,
+        "diet": "Small mammals, birds, frogs, and insects",
+        "geo_range": "Central and Eastern United States",
+        "image_link": "Copperhead_%28Agkistrodon_contortrix%29_photographed_in_Liberty_Co.%2C_Texas._W._L._Farr.jpg"
+    },
+    {
+        "name": "Southern Rockhopper Penguin",
+        "latin_name": "Eudyptes chrysocome",
+        "animal_type": "Bird",
+        "habitat_id": 166,
+        "diet": "Krill, crustaceans, fish, and squid",
+        "geo_range": "Sub-Antarctic islands and southern South America",
+        "image_link": "Gorfou_sauteur_-_Rockhopper_Penguin.jpg"
+    },
+    {
+        "name": "Southern Tamandua",
+        "latin_name": "Tamandua tetradactlya",
+        "animal_type": "Mammal",
+        "habitat_id": 194,
+        "diet": "Ants, bees and termites",
+        "geo_range": "Northern and eastern South America",
+        "image_link": "T_tetradactyla_1.jpg"
+    },
+    {
+        "name": "Steller's Sea Eagle",
+        "latin_name": "Haliaeetus pelagicus",
+        "animal_type": "Bird",
+        "habitat_id": 101,
+        "diet": "Primarily salmon; some carrion and other small animals",
+        "geo_range": "Russia, Japan, China, and Korea",
+        "image_link": "Adult_Steller%27s_sea_eagle_fishing.jpg"
+    },
+    {
+        "name": "Sumatran Orangutan",
+        "latin_name": "Pongo pygmaeus abelii",
+        "animal_type": "Mammal",
+        "habitat_id": 205,
+        "diet": "Fruit, shoots, bark, insects, vines, bird eggs, and small vertebrates",
+        "geo_range": "Northern Sumatra",
+        "image_link": "Sumatra-Orang-Utan_im_Pongoland.jpg"
+    },
+    {
+        "name": "Sunbittern",
+        "latin_name": "Eurypyga helias",
+        "animal_type": "Bird",
+        "habitat_id": 207,
+        "diet": "Insects and other small animals",
+        "geo_range": "Southern Mexico to northern South America",
+        "image_link": "Sunbittern_%28Eurypyga_helias%29.JPG"
+    },
+    {
+        "name": "Tawny Frogmouth",
+        "latin_name": "Podargus strigoides",
+        "animal_type": "Bird",
+        "habitat_id": 123,
+        "diet": "Insects, spiders, worms and other small animals",
+        "geo_range": "Australia",
+        "image_link": "Tawny_Frogmouth_%28Coverdale%29.jpg"
+    },
+    {
+        "name": "Thick-Billed Parrot",
+        "latin_name": "Rhynchopsitta pachyrhyncha",
+        "animal_type": "Bird",
+        "habitat_id": 157,
+        "diet": "Pine cones, acorns, and berries",
+        "geo_range": "Western Mexico",
+        "image_link": "Rhynchopsitta_pachyrhyncha_-Arizona-Sonora_Desert_Museum%2C_Tucson%2C_Arizona%2C_USA-8a.jpg"
+    },
+    {
+        "name": "Thomson's Gazelle",
+        "latin_name": "Eudorcas thomsoni",
+        "animal_type": "Mammal",
+        "habitat_id": 184,
+        "diet": "Grass, herbs, leaves and seeds",
+        "geo_range": "East Africa",
+        "image_link": "Gazella_thomsoni_in_Masai_Mara.jpg"
+    },
+    {
+        "name": "Timber Rattlesnake",
+        "latin_name": "Crotalus horridus",
+        "animal_type": "Reptile",
+        "habitat_id": 179,
+        "diet": "Small mammals, birds, reptiles and amphibians",
+        "geo_range": "Southeastern United States",
+        "image_link": "Adult_Crotalus_horridus.jpg"
+    },
+    {
+        "name": "Titicaca Water Frog",
+        "latin_name": "Telmatobius culeus",
+        "animal_type": "Amphibian",
+        "habitat_id": 137,
+        "diet": "Crustaceans, snails, and other small animals",
+        "geo_range": "Lake Titicaca Bolivia and Peru",
+        "image_link": "Vodnice_posv%C3%A1tn%C3%A1_zoo_praha_1.jpg"
+    },
+    {
+        "name": "Trumpeter Swan",
+        "latin_name": "Olor buccinator",
+        "animal_type": "Bird",
+        "habitat_id": 140,
+        "diet": "Aquatic vegetation",
+        "geo_range": "Northwestern and central North America",
+        "image_link": "Tumpeter1byWoodigo.JPG"
+    },
+    {
+        "name": "Two-toed Amphiuma",
+        "latin_name": "Amphiuma means",
+        "animal_type": "Amphibian",
+        "habitat_id": 199,
+        "diet": "Fish, frogs, crayfish, and small snakes",
+        "geo_range": "Southeastern United States",
+        "image_link": "Amphiuma_%28two-toed%29.jpg"
+    },
+    {
+        "name": "Two-toed Sloth",
+        "latin_name": "Choloepus didactylus",
+        "animal_type": "Mammal",
+        "habitat_id": 201,
+        "diet": "Leaves and fruits",
+        "geo_range": "Northern South America",
+        "image_link": "Choloepus_hoffmanni_%28Puerto_Viejo%2C_CR%29_crop.jpg"
+    },
+    {
+        "name": "Vampire Bat",
+        "latin_name": "Desmodus rotundus",
+        "animal_type": "Mammal",
+        "habitat_id": 171,
+        "diet": "Mammal blood",
+        "geo_range": "Mexico, Central and South America",
+        "image_link": "Desmodus_rotundus_A_Catenazzi.jpg"
+    },
+    {
+        "name": "Verreaux's Eagle Owl",
+        "latin_name": "Bubo lacteus",
+        "animal_type": "Bird",
+        "habitat_id": 116,
+        "diet": "Medium-sized mammals and some larger birds",
+        "geo_range": "Central to southern Africa ",
+        "image_link": "2012-giant-eagle-owl.jpg"
+    },
+    {
+        "name": "Victoria Crowned Pigeon",
+        "latin_name": "Goura victoria",
+        "animal_type": "Bird",
+        "habitat_id": 128,
+        "diet": "Fruits, seeds, insects and snails",
+        "geo_range": "Northern New Guinea",
+        "image_link": "Victoria_Crowned_Pigeon_CentralPark_Zoo.jpg"
+    },
+    {
+        "name": "Visayan Warty Pig",
+        "latin_name": "Sus cebifrons",
+        "animal_type": "Mammal",
+        "habitat_id": 169,
+        "diet": "Fruits, roots and crops",
+        "geo_range": "Philippines",
+        "image_link": "VisayanWartyPig01.jpg"
+    },
+    {
+        "name": "Western Gaboon Viper",
+        "latin_name": "Bitis rhinoceros",
+        "animal_type": "Reptile",
+        "habitat_id": 201,
+        "diet": "Rodents and other small mammals",
+        "geo_range": "Central Africa",
+        "image_link": "Bitis_gabonica.jpg"
+    },
+    {
+        "name": "Western Lowland Gorilla",
+        "latin_name": "Gorilla gorilla gorilla",
+        "animal_type": "Mammal",
+        "habitat_id": 201,
+        "diet": "Fruits, leaves, and small invertebrates",
+        "geo_range": "Central Africa",
+        "image_link": "WesternLowlandGorilla03.jpg"
+    },
+    {
+        "name": "White Lion",
+        "latin_name": "Panthera leo",
+        "animal_type": "Mammal",
+        "habitat_id": 191,
+        "diet": "Hoofed mammals, hares, small birds and reptiles",
+        "geo_range": "Timbavati, South Africa",
+        "image_link": "White_Lion444.jpg"
+    },
+    {
+        "name": "White-bearded Wildebeest",
+        "latin_name": "Connochaetes taurinus",
+        "animal_type": "Mammal",
+        "habitat_id": 186,
+        "diet": "Grass",
+        "geo_range": "Eastern and Southern Africa",
+        "image_link": "Blue_Wildebeest%2C_Ngorongoro.jpg"
+    },
+    {
+        "name": "White-cheeked Bulbul",
+        "latin_name": "Pycnonotus leucotis",
+        "animal_type": "Bird",
+        "habitat_id": 149,
+        "diet": "Fruit and insects",
+        "geo_range": "Middle East and Western Asia",
+        "image_link": "White-eared_bulbul.jpg"
+    },
+    {
+        "name": "White-Faced Saki",
+        "latin_name": "Pithecia pithecia",
+        "animal_type": "Mammal",
+        "habitat_id": 205,
+        "diet": "Fruit, seeds, honey, leaves, flowers, small mammals and birds",
+        "geo_range": "Northern South America",
+        "image_link": "White-faced_Saki_2008-07.jpg"
+    },
+    {
+        "name": "White-Handed Gibbon",
+        "latin_name": "Hylobates lar",
+        "animal_type": "Mammal",
+        "habitat_id": 201,
+        "diet": "Fruits, leaves, insects, and flowers",
+        "geo_range": "Southeast Asia",
+        "image_link": "Hylobates_lar_pair_of_white_and_black_01.jpg"
+    },
+    {
+        "name": "White-naped Pheasant Pigeon",
+        "latin_name": "Otidiphaps nobilis aruensis",
+        "animal_type": "Bird",
+        "habitat_id": 169,
+        "diet": "Seeds and fruits",
+        "geo_range": "New Guinea and surrounding islands",
+        "image_link": "Otidiphaps_nobilis_-Cincinnati_Zoo%2C_Ohio%2C_USA-8a.jpg"
+    },
+    {
+        "name": "White-throated Monitor",
+        "latin_name": "Varanus albigularis",
+        "animal_type": "Reptile",
+        "habitat_id": 182,
+        "diet": "Birds, insects, snails, and invertebrates",
+        "geo_range": "Central and Southern Africa",
+        "image_link": "Rock_monitor%2C_Varanus_albigularis%2C_also_called_commonly_the_white-throated_monitor_or_leguaan._%2848206382456%29.jpg"
+    },
+    {
+        "name": "Wood Duck",
+        "latin_name": "Aix sponsa",
+        "animal_type": "Bird",
+        "habitat_id": 208,
+        "diet": "Seeds, fruit and invertebrates",
+        "geo_range": "North America",
+        "image_link": "Wood_Duck_%28Aix_sponsa%29%2C_Parc_du_Rouge-Clo%C3%AEtre%2C_Brussels.jpg"
+    },
+    {
+        "name": "Yellow Banded Poison Dart Frog",
+        "latin_name": "Dendrobatus leucomelas",
+        "animal_type": "Amphibian",
+        "habitat_id": 204,
+        "diet": "Insects, spiders, and other small invertebrates ",
+        "geo_range": "South America ",
+        "image_link": "Yellow-banded.poison.dart.frog.arp.jpg"
+    },
+    {
+        "name": "Yellow Rat Snake",
+        "latin_name": "Pantherophis alleghaniensis",
+        "animal_type": "Reptile",
+        "habitat_id": 221,
+        "diet": "Rodents, birds, eggs, lizards, frogs, and insects",
+        "geo_range": "Southeastern United States",
+        "image_link": "Pantherophis_alleghaniensis_ssp._quadrivittata_03.JPG"
+    },
+    {
+        "name": "Yellow-backed Duiker",
+        "latin_name": "Cephalophus silvicultor",
+        "animal_type": "Mammal",
+        "habitat_id": 109,
+        "diet": "Bark, shoots, buds, seeds, fruits, fungi, herbs and some small animals",
+        "geo_range": "Western central Africa",
+        "image_link": "Cephalophus_sylvicultor_sylvicultor2.jpg"
+    },
+    {
+        "name": "Yellow-rumped Cacique",
+        "latin_name": "Cacicus cela",
+        "animal_type": "Bird",
+        "habitat_id": 130,
+        "diet": "Invertebrates, berries, fruits and leaves",
+        "geo_range": "Northern South America",
+        "image_link": "Yellow-rumped_Cacique_-_Pantanal_-_Brazil_H8O2199_%2823593614830%29.jpg"
+    }
+]

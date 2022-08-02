@@ -20,7 +20,7 @@ model Habitats {
 }
 
 model Preferred{
-  id  Int @id @default(autoincrement())
+  id        Int         @id @default(autoincrement())
   user_id  Int
   animal_id Int
 
@@ -49,16 +49,17 @@ model Users {
 model Animals {
   id               Int               @id @default(autoincrement())
   name             String            @db.VarChar(255)
-  latinName        String            @db.VarChar(255)
-  geoRange         String            @db.VarChar(255)
-  type             String            @db.VarChar(255)
+  latin_name       String            @db.VarChar(255)
+  geo_range        String            @db.VarChar(255)
+  animal_type      String            @db.VarChar(255)
   diet             String            @db.VarChar(255)
+  image_link       String            @db.VarChar(255)
 
   habitat_id       Int
 
 
   Preferred   Preferred[]
-  Habitats    Habitats? @relation(fields: [habitat_id], references: [id])
+  Habitats    Habitats @relation(fields: [habitat_id], references: [id])
 
   cretetedAt       DateTime          @default(now())
   updatedAt        DateTime          @updatedAt
