@@ -128,7 +128,7 @@ app.patch(
         data: editAnimal,
         include: { Habitats: { select: { name: true } } },
       });
-      console.log(animal);
+
       res.status(200).json({ animal: animal, message: 'Edited correctly' });
     } catch (error) {
       res.status(404).json({ message: 'Something gone wrong' });
@@ -169,7 +169,6 @@ app.get('/user/:id(\\d+)/animals', validateToken, async (req, res) => {
       },
     });
     res.status(200).json(preferredAnimal);
-    console.log(preferredAnimal);
   } catch (error) {
     res.status(404).json({ message: 'Animals Not found' });
   }
@@ -205,15 +204,17 @@ app.delete(
   async (req, res) => {
     const idUser = Number(req.params.id);
     const idAnimal = Number(req.params.animalId);
+
     try {
       const deleteAnimal = await prisma.preferred.findMany({
         where: { animal_id: idAnimal, user_id: idUser },
       });
+
       await prisma.preferred.delete({ where: { id: deleteAnimal[0].id } });
       res.status(201).json({ message: 'Animal deleted successfully' });
     } catch (error: any) {
       res.status(422).json(error);
-      console.log(idAnimal);
+
       console.log(error);
     }
   }

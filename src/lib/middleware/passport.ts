@@ -1,7 +1,7 @@
-import passportLocal from "passport-local";
-import passport from "passport";
-import { PrismaClient } from "@prisma/client";
-import bcrypt from "bcrypt";
+import passportLocal from 'passport-local';
+import passport from 'passport';
+import { PrismaClient } from '@prisma/client';
+import bcrypt from 'bcrypt';
 
 const prisma = new PrismaClient();
 const LocalStrategy = passportLocal.Strategy;
@@ -15,11 +15,11 @@ const localStrategy = new LocalStrategy(async function (
   const user = users.find((user) => user.username === username);
 
   if (!user) {
-    return done(null, false, { message: "User not found" });
+    return done(null, false, { message: 'Credentials are wrong' });
   }
   const isCorrectPwd = await bcrypt.compare(password, user.password);
   if (!isCorrectPwd) {
-    return done(null, false, { message: "Password is not valid" });
+    return done(null, false, { message: 'Credentials are wrong' });
   }
   return done(null, user);
 });
