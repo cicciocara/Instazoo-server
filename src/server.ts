@@ -50,11 +50,17 @@ app.get('/animals', async (req, res) => {
     const animalsArr = await prisma.animals.findMany({
       include: { Habitats: { select: { name: true } } },
     });
-    const arr = [];
+    const arr: any = []; // con (if check) ts assegna a 'arr' type any
     for (let i = 1; i < 10; i++) {
-      const rndAnimal =
-        animalsArr[Math.floor(Math.random() * animalsArr.length)];
-      arr.push(rndAnimal);
+      const rndNumber = Math.floor(Math.random() * animalsArr.length);
+      const rndAnimal = animalsArr[rndNumber];
+      const check = arr.includes(rndAnimal);
+
+      if (check) {
+        i--;
+      } else {
+        arr.push(rndAnimal);
+      }
     }
 
     res.status(200).json(arr);
@@ -89,7 +95,7 @@ app.post(
   validate({ body: animalsSchema }),
   upload.single('image'),
   async (req, res) => {
-    const newAnimal: AnimalsData = req.body;
+    const newAnimal: AnimalsData = req.body.animal;
     // const newAnimal = req.body;
     try {
       const animal = await prisma.animals.create({
