@@ -20,6 +20,7 @@ export const validationErrorMiddleware: ErrorRequestHandler = (
     response.status(422).send({
       errors: error.validationErrors,
     });
+    console.log(request.body);
 
     next();
   } else {

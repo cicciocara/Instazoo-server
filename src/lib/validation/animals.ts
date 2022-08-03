@@ -9,6 +9,7 @@ export const animalsSchema = Type.Object(
     diet: Type.String(),
     habitat_id: Type.Integer(),
     image_link: Type.String(),
+    image: Type.Optional(Type.String()),
   },
   { additionalProperties: false }
 );

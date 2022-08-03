@@ -1,7 +1,7 @@
-import express, { application } from 'express';
-import 'dotenv/config';
-import { PrismaClient } from '@prisma/client';
-import cors from 'cors';
+import express, { application } from "express";
+import "dotenv/config";
+import { PrismaClient } from "@prisma/client";
+import cors from "cors";
 import {
   validate,
   validationErrorMiddleware,
@@ -9,15 +9,15 @@ import {
   AnimalsData,
   usersSchema,
   UsersData,
-} from './lib/validation';
-import { photoUploaderMiddleware } from './lib/middleware/multer';
-import localStrategy from './lib/middleware/passport';
-import passport from 'passport';
-import jwt from 'jsonwebtoken';
-import config from './config';
-import session from 'express-session';
-import { validateToken } from './lib/middleware/validationToken';
-import bcrypt from 'bcrypt';
+} from "./lib/validation";
+import { photoUploaderMiddleware } from "./lib/middleware/multer";
+import localStrategy from "./lib/middleware/passport";
+import passport from "passport";
+import jwt from "jsonwebtoken";
+import config from "./config";
+import session from "express-session";
+import { validateToken } from "./lib/middleware/validationToken";
+import bcrypt from "bcrypt";
 
 const generateAccessToken = (id: Number) => {
   return jwt.sign({ id }, config.TOKEN_SECRET);
@@ -38,14 +38,14 @@ app.use(
   })
 );
 app.use(express.json());
-app.use(cors({ origin: '*' }));
+app.use(cors({ origin: "*" }));
 app.use(passport.initialize());
 app.use(passport.session());
 passport.use(localStrategy);
 
 // GET ALL ANIMALS
 
-app.get('/animals', async (req, res) => {
+app.get("/animals", async (req, res) => {
   try {
     const animalsArr = await prisma.animals.findMany({
       include: { Habitats: { select: { name: true } } },
@@ -71,7 +71,7 @@ app.get('/animals', async (req, res) => {
 
 // GET ANIMAL'S DETAILS
 
-app.get('/animals/:id(\\d+)', async (req, res) => {
+app.get("/animals/:id(\\d+)", async (req, res) => {
   const idAnimal = Number(req.params.id);
   try {
     const animal = await prisma.animals.findUnique({
@@ -79,7 +79,7 @@ app.get('/animals/:id(\\d+)', async (req, res) => {
       include: { Habitats: { select: { name: true } } },
     });
     if (!animal) {
-      return res.status(404).json({ message: 'Do not exists' });
+      return res.status(404).json({ message: "Do not exists" });
     }
     res.status(200).json(animal);
   } catch (error) {
@@ -90,10 +90,10 @@ app.get('/animals/:id(\\d+)', async (req, res) => {
 // CREATE NEW ANIMAL
 
 app.post(
-  '/animals',
+  "/animals",
   validateToken,
   validate({ body: animalsSchema }),
-  upload.single('image'),
+  upload.single("image"),
   async (req, res) => {
     const newAnimal: AnimalsData = req.body.animal;
     // const newAnimal = req.body;
@@ -103,7 +103,7 @@ app.post(
         include: { Habitats: { select: { name: true } } },
       });
 
-      res.status(201).json({ animal: animal, message: 'Added correctly' });
+      res.status(201).json({ animal: animal, message: "Added correctly" });
     } catch (error: any) {
       res.status(401).send(error);
       console.log(error.message);
@@ -114,12 +114,13 @@ app.post(
 // EDIT ANIMAL
 
 app.patch(
-  '/animals/:id(\\d+)',
+  "/animals/:id(\\d+)",
   validateToken,
-  validate({ body: animalsSchema }),
-  upload.single('image'),
+  // validate({ body: animalsSchema }),
+  upload.single("image"),
   async (req, res) => {
-    const editAnimal: AnimalsData = req.body;
+    //const editAnimal: AnimalsData = req.body;
+    const editAnimal = req.body;
     const idAnimal = Number(req.params.id);
     try {
       const animal = await prisma.animals.update({
@@ -127,24 +128,24 @@ app.patch(
         data: editAnimal,
         include: { Habitats: { select: { name: true } } },
       });
-
-      res.status(200).json({ animal: animal, message: 'Edited correctly' });
+      console.log(animal);
+      res.status(200).json({ animal: animal, message: "Edited correctly" });
     } catch (error) {
-      res.status(404).json({ message: 'Something gone wrong' });
+      res.status(404).json({ message: "Something gone wrong" });
     }
   }
 );
 
 // DELETE ANIMAL
 
-app.delete('/animals/:id(\\d+)', validateToken, async (req, res) => {
+app.delete("/animals/:id(\\d+)", validateToken, async (req, res) => {
   const idAnimal = Number(req.params.id);
   try {
     const animalToDelete = await prisma.animals.delete({
       where: { id: idAnimal },
     });
 
-    res.status(200).json({ message: 'Animal Deleted' });
+    res.status(200).json({ message: "Animal Deleted" });
   } catch (error) {
     res
       .status(404)
@@ -154,7 +155,7 @@ app.delete('/animals/:id(\\d+)', validateToken, async (req, res) => {
 
 // GET PREFERRED ANIMALS
 
-app.get('/user/:id(\\d+)/animals', validateToken, async (req, res) => {
+app.get("/user/:id(\\d+)/animals", validateToken, async (req, res) => {
   const idUser = Number(req.params.id);
   try {
     const preferredAnimal = await prisma.preferred.findMany({
@@ -169,14 +170,14 @@ app.get('/user/:id(\\d+)/animals', validateToken, async (req, res) => {
     });
     res.status(200).json(preferredAnimal);
   } catch (error) {
-    res.status(404).json({ message: 'Animals Not found' });
+    res.status(404).json({ message: "Animals Not found" });
   }
 });
 
 // ADD ANIMAL TO PREFERRED
 
 app.post(
-  '/user/:id(\\d+)/animals/:animalId(\\d+)',
+  "/user/:id(\\d+)/animals/:animalId(\\d+)",
   validateToken,
   async (req, res) => {
     const idUser = Number(req.params.id);
@@ -188,7 +189,7 @@ app.post(
 
       res
         .status(201)
-        .json({ addAnimal: addAnimal, message: 'Animal added successfully' });
+        .json({ addAnimal: addAnimal, message: "Animal added successfully" });
     } catch (error) {
       res.status(422).json({ message: `Something gone wrong` });
     }
@@ -198,7 +199,7 @@ app.post(
 // REMOVE ANIMAL FROM PREFERRED
 
 app.delete(
-  '/user/:id(\\d+)/animals/:animalId(\\d+)',
+  "/user/:id(\\d+)/animals/:animalId(\\d+)",
   validateToken,
   async (req, res) => {
     const idUser = Number(req.params.id);
@@ -208,7 +209,7 @@ app.delete(
         where: { animal_id: idAnimal, user_id: idUser },
       });
       await prisma.preferred.delete({ where: { id: deleteAnimal[0].id } });
-      res.status(201).json({ message: 'Animal deleted successfully' });
+      res.status(201).json({ message: "Animal deleted successfully" });
     } catch (error) {
       res.status(422).json(error);
     }
@@ -217,7 +218,7 @@ app.delete(
 
 // USERS SIGNUP
 
-app.post('/signup', validate({ body: usersSchema }), async (req, res) => {
+app.post("/signup", validate({ body: usersSchema }), async (req, res) => {
   const newUserValidate: UsersData = req.body;
   try {
     const users = await prisma.users.findMany();
@@ -253,22 +254,22 @@ app.post('/signup', validate({ body: usersSchema }), async (req, res) => {
     );
 
     if (checkUsername) {
-      res.status(400).json({ message: 'Username already exists' });
+      res.status(400).json({ message: "Username already exists" });
     } else {
       await prisma.users.create({ data: newUser });
 
-      res.status(200).json({ message: 'User added correctly', status: 'ok' });
+      res.status(200).json({ message: "User added correctly", status: "ok" });
     }
   } catch (err: any) {
     console.log(err.message);
-    res.status(422).json({ message: 'Something gone wrong' });
+    res.status(422).json({ message: "Something gone wrong" });
   }
 });
 
 // USERS LOGIN
 
-app.post('/login', async (req, res, next) => {
-  passport.authenticate('local', (err, user, info) => {
+app.post("/login", async (req, res, next) => {
+  passport.authenticate("local", (err, user, info) => {
     if (err) {
       return next(err);
     }
@@ -286,6 +287,6 @@ app.post('/login', async (req, res, next) => {
 //   res.status(201).json({ message: "Added successfully" });
 // });
 
-app.use(express.static('src/assets/img'));
+app.use(express.static("src/assets/img"));
 app.use(validationErrorMiddleware);
 app.listen(port);
