@@ -2,14 +2,14 @@ import express, { application } from "express";
 import "dotenv/config";
 import { PrismaClient } from "@prisma/client";
 import cors from "cors";
+import { validate, validationErrorMiddleware } from "./lib/validation/index";
 import {
-  validate,
-  validationErrorMiddleware,
   animalsSchema,
   AnimalsData,
-  usersSchema,
-  UsersData,
-} from "./lib/validation";
+  AnimalsDataUpdate,
+  animalsSchemaUpdate,
+} from "./lib/validation/animals";
+import { UsersData, usersSchema } from "./lib/validation/users";
 import { photoUploaderMiddleware } from "./lib/middleware/multer";
 import localStrategy from "./lib/middleware/passport";
 import passport from "passport";
@@ -116,11 +116,11 @@ app.post(
 app.patch(
   "/animals/:id(\\d+)",
   validateToken,
-  // validate({ body: animalsSchema }),
+  validate({ body: animalsSchemaUpdate }),
   upload.single("image"),
   async (req, res) => {
-    //const editAnimal: AnimalsData = req.body;
-    const editAnimal = req.body;
+    const editAnimal: AnimalsDataUpdate = req.body;
+    //const editAnimal = req.body;
     const idAnimal = Number(req.params.id);
     try {
       const animal = await prisma.animals.update({

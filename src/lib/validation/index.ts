@@ -4,9 +4,9 @@ import { ErrorRequestHandler } from "express";
 
 const validator = new Validator({});
 
-addFormats(validator.ajv, ["date-time"])
-  .addKeyword("kind")
-  .addKeyword("modifier");
+// addFormats(validator.ajv, ["date-time"])
+//   .addKeyword("kind")
+//   .addKeyword("modifier");
 
 export const validate = validator.validate;
 
@@ -28,5 +28,5 @@ export const validationErrorMiddleware: ErrorRequestHandler = (
   }
 };
 
-export * from "./animals";
-export * from "./users";
+// export * from "./animals";
+// export * from "./users";
