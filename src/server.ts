@@ -52,20 +52,20 @@ app.get('/animals', async (req, res) => {
     const animalsArr = await prisma.animals.findMany({
       include: { Habitats: { select: { name: true } } },
     });
-    const arr: any = []; // con (if check) ts assegna a 'arr' type any
-    for (let i = 1; i < 10; i++) {
-      const rndNumber = Math.floor(Math.random() * animalsArr.length);
-      const rndAnimal = animalsArr[rndNumber];
-      const check = arr.includes(rndAnimal);
+    // const arr: any = []; // con (if check) ts assegna a 'arr' type any
+    // for (let i = 1; i < 10; i++) {
+    //   const rndNumber = Math.floor(Math.random() * animalsArr.length);
+    //   const rndAnimal = animalsArr[rndNumber];
+    //   const check = arr.includes(rndAnimal);
 
-      if (check) {
-        i--;
-      } else {
-        arr.push(rndAnimal);
-      }
-    }
+    //   if (check) {
+    //     i--;
+    //   } else {
+    //     arr.push(rndAnimal);
+    //   }
+    // }
 
-    res.status(200).json(arr);
+    res.status(200).json(animalsArr);
   } catch (error) {
     res.status(401).send(error);
   }
