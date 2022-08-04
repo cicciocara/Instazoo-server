@@ -8,6 +8,8 @@ import {
   AnimalsData,
   AnimalsDataUpdate,
   animalsSchemaUpdate,
+  animalsSchemaFile,
+  AnimalFileData,
 } from './lib/validation/animals';
 import { UsersData, usersSchema } from './lib/validation/users';
 import { photoUploaderMiddleware } from './lib/middleware/multer';
@@ -38,7 +40,7 @@ app.use(
   })
 );
 app.use(express.json());
-app.use(cors({ origin: '*' }));
+app.use(cors({ origin: 'http://localhost:3001' }));
 app.use(passport.initialize());
 app.use(passport.session());
 passport.use(localStrategy);
@@ -93,14 +95,14 @@ app.post(
   '/animals',
   validateToken,
   validate({ body: animalsSchema }),
-  upload.single('image'),
+  //upload.single('image'),
   async (req, res) => {
-    const newAnimal: AnimalsData = req.body.animal;
+    const newAnimal: AnimalsData = req.body;
     // const newAnimal = req.body;
+    console.log(`sono io: ${newAnimal}`);
     try {
       const animal = await prisma.animals.create({
         data: newAnimal,
-        include: { Habitats: { select: { name: true } } },
       });
 
       res.status(201).json({ animal: animal, message: 'Added correctly' });
@@ -116,12 +118,16 @@ app.post(
 app.patch(
   '/animals/:id(\\d+)',
   validateToken,
-  //validate({ body: animalsSchemaUpdate }),
-  upload.single('image'),
+  validate({ body: animalsSchemaUpdate }),
+  // upload.single('image'),
   async (req, res) => {
-    //const editAnimal: AnimalsDataUpdate = req.body;
-    const editAnimal = req.body;
+    const editAnimal: AnimalsDataUpdate = req.body;
+    //const editAnimal = req.body;
+    console.log(editAnimal);
+    // res.status(200).json({ body: editAnimal });
     const idAnimal = Number(req.params.id);
+    // // console.log(req.body.animal);
+
     try {
       const animal = await prisma.animals.update({
         where: { id: idAnimal },
@@ -130,8 +136,63 @@ app.patch(
       });
 
       res.status(200).json({ animal: animal, message: 'Edited correctly' });
-    } catch (error) {
+    } catch (error: any) {
       res.status(404).json({ message: 'Something gone wrong' });
+      console.log(error.message);
+    }
+  }
+);
+
+app.patch(
+  '/animals/image/:id(\\d+)',
+  validateToken,
+  // validate({ body: animalsSchemaUpdate }),
+  upload.single('image'),
+  async (req, res) => {
+    // console.log(req.body);
+    //const editAnimal: AnimalsDataUpdate = req.body;
+    // const editAnimal = req.body;
+    // const idAnimal = Number(req.params.id);
+    // console.log(req.body.animal);
+
+    try {
+      //   const animal = await prisma.animals.update({
+      //     where: { id: idAnimal },
+      //     data: editAnimal,
+      //     include: { Habitats: { select: { name: true } } },
+      //   });
+
+      res.status(200).json({ message: 'Edited correctly' });
+    } catch (error: any) {
+      res.status(404).json({ message: 'Something gone wrong' });
+      console.log(error.message);
+    }
+  }
+);
+
+app.post(
+  '/animals/image',
+  validateToken,
+  //validate({ body: animalsSchemaFile }),
+  upload.single('image'),
+  async (req, res) => {
+    // console.log(req.body);
+    //const editAnimal: AnimalsDataUpdate = req.body;
+    // const editAnimal = req.body;
+    // const idAnimal = Number(req.params.id);
+    // console.log(req.body.animal);
+
+    try {
+      //   const animal = await prisma.animals.update({
+      //     where: { id: idAnimal },
+      //     data: editAnimal,
+      //     include: { Habitats: { select: { name: true } } },
+      //   });
+
+      res.status(200).json({ message: 'Edited correctly' });
+    } catch (error: any) {
+      res.status(404).json({ message: 'Something gone wrong' });
+      console.log(error.message);
     }
   }
 );
